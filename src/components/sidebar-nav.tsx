@@ -37,7 +37,7 @@ export function SidebarNav({ onNavigate }: { onNavigate?: () => void }) {
                 params={{ courseSlug: course.id }}
                 onClick={onNavigate}
                 className={cn(
-                  'hover:bg-muted flex items-center gap-1.5 rounded-md px-2 py-1.5 transition-colors',
+                  'hover:bg-accent-hover hover:text-accent-foreground flex items-center gap-1.5 rounded-md px-2 py-1.5 transition-colors',
                   isOpen && 'font-medium',
                 )}
               >
@@ -89,14 +89,14 @@ export function SidebarNav({ onNavigate }: { onNavigate?: () => void }) {
       <Link
         to="/glossary"
         onClick={onNavigate}
-        className="hover:bg-muted [&.active]:bg-muted flex items-center gap-2 rounded-md px-2 py-1.5 [&.active]:font-medium"
+        className="hover:bg-accent-hover hover:text-accent-foreground [&.active]:bg-accent flex items-center gap-2 rounded-md px-2 py-1.5 [&.active]:font-medium"
       >
         <Library className="size-3.5" /> Glossary
       </Link>
       <Link
         to="/practice"
         onClick={onNavigate}
-        className="hover:bg-muted [&.active]:bg-muted flex items-center gap-2 rounded-md px-2 py-1.5 [&.active]:font-medium"
+        className="hover:bg-accent-hover hover:text-accent-foreground [&.active]:bg-accent flex items-center gap-2 rounded-md px-2 py-1.5 [&.active]:font-medium"
       >
         <Layers className="size-3.5" /> Practice
       </Link>

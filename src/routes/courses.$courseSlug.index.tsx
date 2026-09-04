@@ -33,7 +33,7 @@ function CoursePage() {
             <Link
               to="/courses/$courseSlug/lessons/$lessonSlug"
               params={{ courseSlug: course.id, lessonSlug: lesson.slug }}
-              className="group hover:bg-muted/40 -mx-3 flex items-baseline gap-3 rounded-lg px-3 py-3.5 transition-colors"
+              className="group hover:bg-accent -mx-3 flex items-baseline gap-3 rounded-lg px-3 py-3.5 transition-colors"
             >
               <span className="text-muted-foreground w-5 shrink-0 text-sm tabular-nums">
                 {i + 1}
@@ -58,7 +58,7 @@ function CoursePage() {
         <Link
           to="/glossary"
           search={{ course: course.id }}
-          className="group hover:bg-muted/40 flex items-center gap-3 rounded-lg border px-4 py-3 text-sm transition-colors"
+          className="group hover:bg-accent flex items-center gap-3 rounded-lg border px-4 py-3 text-sm transition-colors"
         >
           <Library className="text-muted-foreground size-4" />
           <span className="flex-1">
@@ -70,7 +70,7 @@ function CoursePage() {
         <Link
           to="/practice"
           search={{ course: course.id }}
-          className="group hover:bg-muted/40 flex items-center gap-3 rounded-lg border px-4 py-3 text-sm transition-colors"
+          className="group hover:bg-accent flex items-center gap-3 rounded-lg border px-4 py-3 text-sm transition-colors"
         >
           <Layers className="text-muted-foreground size-4" />
           <span className="flex-1">

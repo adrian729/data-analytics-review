@@ -52,7 +52,7 @@ function Home() {
                 <Link
                   to="/courses/$courseSlug"
                   params={{ courseSlug: course.id }}
-                  className="group hover:bg-muted/40 -mx-3 flex gap-4 rounded-lg px-3 py-5 transition-colors"
+                  className="group hover:bg-accent -mx-3 flex gap-4 rounded-lg px-3 py-5 transition-colors"
                 >
                   {inner}
                 </Link>
