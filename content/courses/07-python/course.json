@@ -1,0 +1,10 @@
+{
+  "id": "07-python",
+  "number": 7,
+  "title": "Introduction to Data Analysis Using Python",
+  "shortTitle": "Python",
+  "summary": "Python for analysts: syntax fundamentals, data structures, and using pandas to prepare, analyze, and visualize data.",
+  "status": "planned",
+  "lessonOrder": [],
+  "topics": ["python", "visualization"]
+}

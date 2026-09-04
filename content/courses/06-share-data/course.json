@@ -1,0 +1,10 @@
+{
+  "id": "06-share-data",
+  "number": 6,
+  "title": "Share Data Through the Art of Visualization",
+  "shortTitle": "Share Data",
+  "summary": "Turning results into something an audience can act on: visualization design principles, Tableau, dashboards, and data storytelling.",
+  "status": "planned",
+  "lessonOrder": [],
+  "topics": ["visualization", "stakeholders"]
+}

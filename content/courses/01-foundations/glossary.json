@@ -1,0 +1,394 @@
+[
+  {
+    "id": "data",
+    "term": "Data",
+    "aliases": [],
+    "definition": "A collection of facts — numbers, pictures, videos, words, measurements, or observations.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": ["dataset"],
+    "topics": ["analytics-role"]
+  },
+  {
+    "id": "dataset",
+    "term": "Dataset",
+    "aliases": ["data set"],
+    "definition": "A collection of data that can be manipulated or analyzed as one unit.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": ["data"],
+    "topics": ["analytics-role"]
+  },
+  {
+    "id": "data-analysis",
+    "term": "Data analysis",
+    "aliases": [],
+    "definition": "The collection, transformation, and organization of data in order to draw conclusions, make predictions, and drive informed decision-making.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": ["data-analytics", "data-science"],
+    "topics": ["analytics-role"]
+  },
+  {
+    "id": "data-analyst",
+    "term": "Data analyst",
+    "aliases": ["analyst"],
+    "definition": "Someone who collects, transforms, and organizes data in order to draw conclusions, make predictions, and drive informed decision-making.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": ["data-science"],
+    "topics": ["analytics-role", "career"]
+  },
+  {
+    "id": "data-analytics",
+    "term": "Data analytics",
+    "aliases": ["analytics"],
+    "definition": "The science of data — the umbrella term covering the data itself, data analysis, the tools, and the data ecosystem.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": ["data-analysis", "data-science"],
+    "topics": ["analytics-role"]
+  },
+  {
+    "id": "data-science",
+    "term": "Data science",
+    "aliases": ["data scientist"],
+    "definition": "A field of study that uses raw data to create new ways of modeling and understanding the unknown. Data scientists create new questions from data; data analysts find answers to existing ones.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": ["data-analysis", "data-analytics", "data-analyst"],
+    "topics": ["analytics-role", "career"]
+  },
+  {
+    "id": "data-ecosystem",
+    "term": "Data ecosystem",
+    "aliases": [],
+    "definition": "The various elements that interact with one another in order to produce, manage, store, organize, analyze, and share data — hardware, software, people, and the cloud.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": [],
+    "topics": ["analytics-role"]
+  },
+  {
+    "id": "cloud",
+    "term": "The cloud",
+    "aliases": ["cloud storage"],
+    "definition": "Data stored and accessed online rather than on a local drive.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/01-what-data-analytics-is",
+    "confusableWith": [],
+    "topics": ["analytics-role", "tooling"]
+  },
+  {
+    "id": "data-analysis-process",
+    "term": "Data analysis process",
+    "aliases": ["six phases", "the six-phase process"],
+    "definition": "The six phases that carry a business question from \"someone asked\" to \"something changed\": Ask, Prepare, Process, Analyze, Share, Act. Iterative rather than strictly linear.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/02-the-data-analysis-process",
+    "confusableWith": ["data-life-cycle"],
+    "sequence": ["Ask", "Prepare", "Process", "Analyze", "Share", "Act"],
+    "topics": ["process"]
+  },
+  {
+    "id": "stakeholders",
+    "term": "Stakeholders",
+    "aliases": ["stakeholder"],
+    "definition": "People who invest time and resources into a project and are interested in its outcome.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/02-the-data-analysis-process",
+    "confusableWith": [],
+    "topics": ["stakeholders"]
+  },
+  {
+    "id": "people-analytics",
+    "term": "People analytics",
+    "aliases": ["human resources analytics", "workforce analytics", "HR analytics"],
+    "definition": "The practice of collecting and analyzing data on a company's workforce in order to improve how the company operates.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/02-the-data-analysis-process",
+    "confusableWith": [],
+    "topics": ["process", "analytics-role"]
+  },
+  {
+    "id": "data-life-cycle",
+    "term": "Data life cycle",
+    "aliases": ["data lifecycle"],
+    "definition": "The six stages data itself moves through from creation to destruction: Plan, Capture, Manage, Analyze, Archive, Destroy.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/03-the-data-life-cycle",
+    "confusableWith": ["data-analysis-process"],
+    "sequence": ["Plan", "Capture", "Manage", "Analyze", "Archive", "Destroy"],
+    "topics": ["data-lifecycle"]
+  },
+  {
+    "id": "analytical-skills",
+    "term": "Analytical skills",
+    "aliases": [],
+    "definition": "Qualities and characteristics associated with using facts to solve problems — curiosity, understanding context, technical mindset, data design, and data strategy.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["analytical-thinking"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "analytical-thinking",
+    "term": "Analytical thinking",
+    "aliases": [],
+    "definition": "The process of identifying and defining a problem, then solving it by using data in an organized, step-by-step manner.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["analytical-skills"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "context",
+    "term": "Context",
+    "aliases": [],
+    "definition": "The condition in which something exists or happens.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": [],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "technical-mindset",
+    "term": "Technical mindset",
+    "aliases": [],
+    "definition": "The ability to break things down into smaller steps or pieces and work with them in an orderly and logical way.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": [],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "data-design",
+    "term": "Data design",
+    "aliases": [],
+    "definition": "How information is organized.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["data-strategy"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "data-strategy",
+    "term": "Data strategy",
+    "aliases": [],
+    "definition": "The management of the people, processes, and tools used in data analysis.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["data-design"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "correlation",
+    "term": "Correlation",
+    "aliases": [],
+    "definition": "A relationship between two or more variables. Correlation does not equal causation — two trends moving together does not prove that one causes the other.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["root-cause"],
+    "topics": ["analytical-thinking", "statistics"]
+  },
+  {
+    "id": "root-cause",
+    "term": "Root cause",
+    "aliases": [],
+    "definition": "The reason why a problem occurs — the actual underlying cause rather than the symptom that made it visible.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["correlation"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "five-whys",
+    "term": "Five Whys",
+    "aliases": ["5 whys"],
+    "definition": "A root-cause analysis technique: ask \"why\" repeatedly, conventionally five times, each answer digging one layer deeper, until the underlying cause is revealed rather than the symptom.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["gap-analysis"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "gap-analysis",
+    "term": "Gap analysis",
+    "aliases": [],
+    "definition": "A method for examining and evaluating the current state of a process in order to identify opportunities for improvement in the future.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/04-analytical-thinking",
+    "confusableWith": ["five-whys"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "data-driven-decision-making",
+    "term": "Data-driven decision-making",
+    "aliases": ["DDDM", "data driven decision making"],
+    "definition": "Using facts to guide business strategy, rather than relying on assumption or observation alone.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/05-data-driven-decision-making",
+    "confusableWith": ["gut-instinct"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "gut-instinct",
+    "term": "Gut instinct",
+    "aliases": ["intuition"],
+    "definition": "An intuitive judgment made with little or no explicit reasoning. It can introduce bias without data to back it up, but domain experience can also surface patterns data alone would miss.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/05-data-driven-decision-making",
+    "confusableWith": ["data-driven-decision-making"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "business-task",
+    "term": "Business task",
+    "aliases": [],
+    "definition": "The question or problem data analysis resolves for a business — the concrete unit of work an analyst is assigned.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/05-data-driven-decision-making",
+    "confusableWith": [],
+    "topics": ["decision-making", "stakeholders"]
+  },
+  {
+    "id": "spreadsheet",
+    "term": "Spreadsheet",
+    "aliases": ["Excel", "Google Sheets"],
+    "definition": "A digital worksheet, organized in cells, rows, and columns, with formulas and functions for calculation. Best suited to smaller, well-defined datasets.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/06-the-analysts-toolbox",
+    "confusableWith": ["database"],
+    "topics": ["spreadsheets", "tooling"]
+  },
+  {
+    "id": "database",
+    "term": "Database",
+    "aliases": [],
+    "definition": "A collection of data stored in a computer system, organized by rules and relationships and accessed through a query language.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/06-the-analysts-toolbox",
+    "confusableWith": ["spreadsheet"],
+    "topics": ["databases", "tooling"]
+  },
+  {
+    "id": "query-language",
+    "term": "Query language",
+    "aliases": [],
+    "definition": "A computer programming language used to communicate with a database.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/06-the-analysts-toolbox",
+    "confusableWith": ["sql", "query"],
+    "topics": ["databases", "sql"]
+  },
+  {
+    "id": "sql",
+    "term": "SQL",
+    "aliases": ["Structured Query Language"],
+    "definition": "Structured Query Language — the standard query language used to communicate with a database, run through programs like MySQL, Microsoft SQL Server, or BigQuery.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/06-the-analysts-toolbox",
+    "confusableWith": ["query-language", "query"],
+    "topics": ["sql", "databases"]
+  },
+  {
+    "id": "data-visualization",
+    "term": "Data visualization",
+    "aliases": ["dataviz", "visualization"],
+    "definition": "The graphical representation of data — turning raw numbers and tables into a form an audience can interpret quickly.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/06-the-analysts-toolbox",
+    "confusableWith": [],
+    "topics": ["visualization"]
+  },
+  {
+    "id": "attribute",
+    "term": "Attribute",
+    "aliases": ["column label", "header"],
+    "definition": "A characteristic or quality of data used to label a column in a table.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
+    "confusableWith": ["observation"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "observation",
+    "term": "Observation",
+    "aliases": [],
+    "definition": "The attributes that describe a piece of data contained in a row of a table.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
+    "confusableWith": ["attribute"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "formula",
+    "term": "Formula",
+    "aliases": [],
+    "definition": "A set of instructions used to perform a calculation using the data in a spreadsheet. Always begins with an equals sign.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
+    "confusableWith": ["function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "function",
+    "term": "Function",
+    "aliases": [],
+    "definition": "A preset command that automatically performs a specified process or task using the data in a spreadsheet.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
+    "confusableWith": ["formula"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "query",
+    "term": "Query",
+    "aliases": [],
+    "definition": "A request for data or information from a database.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
+    "confusableWith": ["query-language", "sql"],
+    "topics": ["sql", "databases"]
+  },
+  {
+    "id": "fairness",
+    "term": "Fairness",
+    "aliases": [],
+    "definition": "A quality of data analysis that does not create or reinforce bias. A conclusion can be factually true and still unfair if it ignores context.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/08-fair-and-impactful-data-work",
+    "confusableWith": ["data-ethics"],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "data-ethics",
+    "term": "Data ethics",
+    "aliases": [],
+    "definition": "The good and right way of using data — including beneficence, treating data as describing people who deserve privacy, and giving people real consent and control over their own information.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/08-fair-and-impactful-data-work",
+    "confusableWith": ["fairness"],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "oversampling",
+    "term": "Oversampling",
+    "aliases": [],
+    "definition": "The process of increasing the sample size of nondominant groups in a population, to better represent them and address imbalanced datasets.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/08-fair-and-impactful-data-work",
+    "confusableWith": ["self-reporting"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "self-reporting",
+    "term": "Self-reporting",
+    "aliases": ["self-reported data"],
+    "definition": "A data collection technique where participants provide information about themselves, avoiding the observer bias that appears when someone else records data about them.",
+    "courseId": "01-foundations",
+    "lessonId": "01-foundations/08-fair-and-impactful-data-work",
+    "confusableWith": ["oversampling"],
+    "topics": ["ethics-fairness", "data-quality"]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "id": "04-process-data",
+  "number": 4,
+  "title": "Process Data from Dirty to Clean",
+  "shortTitle": "Process Data",
+  "summary": "Data integrity and cleaning: finding and fixing dirty data in spreadsheets and SQL, then verifying and documenting the result.",
+  "status": "planned",
+  "lessonOrder": [],
+  "topics": ["data-quality", "spreadsheets", "sql"]
+}

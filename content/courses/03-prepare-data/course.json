@@ -1,0 +1,10 @@
+{
+  "id": "03-prepare-data",
+  "number": 3,
+  "title": "Prepare Data for Exploration",
+  "shortTitle": "Prepare Data",
+  "summary": "Choosing and collecting the right data: data types, bias and credibility, databases, and the ethics of data collection.",
+  "status": "planned",
+  "lessonOrder": [],
+  "topics": ["data-types", "data-quality", "databases", "ethics-fairness"]
+}

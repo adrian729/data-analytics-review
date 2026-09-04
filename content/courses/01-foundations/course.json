@@ -1,0 +1,34 @@
+{
+  "id": "01-foundations",
+  "number": 1,
+  "title": "Foundations: Data, Data, Everywhere",
+  "shortTitle": "Foundations",
+  "summary": "What data analytics is, the six-phase process that structures every project in the certificate, how analysts think, and the tools they work with.",
+  "status": "authored",
+  "lessonOrder": [
+    "01-foundations/01-what-data-analytics-is",
+    "01-foundations/02-the-data-analysis-process",
+    "01-foundations/03-the-data-life-cycle",
+    "01-foundations/04-analytical-thinking",
+    "01-foundations/05-data-driven-decision-making",
+    "01-foundations/06-the-analysts-toolbox",
+    "01-foundations/07-spreadsheets-and-sql-basics",
+    "01-foundations/08-fair-and-impactful-data-work",
+    "01-foundations/09-the-analyst-career-landscape"
+  ],
+  "topics": [
+    "analytics-role",
+    "process",
+    "data-lifecycle",
+    "analytical-thinking",
+    "decision-making",
+    "tooling",
+    "spreadsheets",
+    "sql",
+    "databases",
+    "visualization",
+    "ethics-fairness",
+    "career",
+    "stakeholders"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "05-analyze-data",
+  "number": 5,
+  "title": "Analyze Data to Answer Questions",
+  "shortTitle": "Analyze Data",
+  "summary": "Organizing and formatting data, then analyzing it with spreadsheet functions and SQL to answer the original business question.",
+  "status": "planned",
+  "lessonOrder": [],
+  "topics": ["spreadsheets", "sql", "statistics"]
+}
