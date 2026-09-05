@@ -1,5 +1,5 @@
-// The only thing that touches localStorage. A theme toggle that resets on
-// reload is worse than no toggle; nothing else about the app is remembered.
+// A theme toggle that resets on reload is worse than no toggle, so this
+// persists to localStorage (see also lib/sidebar.ts).
 
 export type Theme = 'light' | 'dark' | 'system'
 
