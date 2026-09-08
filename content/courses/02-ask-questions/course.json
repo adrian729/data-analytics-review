@@ -3,8 +3,23 @@
   "number": 2,
   "title": "Ask Questions to Make Data-Driven Decisions",
   "shortTitle": "Ask Questions",
-  "summary": "The Ask phase in depth: framing problems, writing SMART questions, and the difference between data-driven and data-inspired decisions.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["decision-making", "stakeholders", "spreadsheets"]
+  "summary": "Effective questioning and problem types, data-driven vs. data-inspired decisions and dashboards, spreadsheet formulas/functions and error handling, and structured thinking and stakeholder management.",
+  "status": "authored",
+  "lessonOrder": [
+    "02-ask-questions/01-problem-solving-and-effective-questioning",
+    "02-ask-questions/02-six-common-problem-types",
+    "02-ask-questions/03-smart-questions",
+    "02-ask-questions/04-qualitative-and-quantitative-data",
+    "02-ask-questions/05-big-and-small-data",
+    "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "02-ask-questions/07-spreadsheets-and-the-data-life-cycle",
+    "02-ask-questions/08-spreadsheet-formulas",
+    "02-ask-questions/09-spreadsheet-functions",
+    "02-ask-questions/10-spreadsheet-errors-and-fixes",
+    "02-ask-questions/11-scope-of-work-and-structured-thinking",
+    "02-ask-questions/12-working-with-stakeholders",
+    "02-ask-questions/13-communication-and-limitations-of-data",
+    "02-ask-questions/14-teamwork-and-meetings"
+  ],
+  "topics": ["decision-making", "stakeholders", "spreadsheets", "data-types", "data-quality", "visualization", "analytical-thinking"]
 }

@@ -86,7 +86,7 @@
     "definition": "The six phases that carry a business question from \"someone asked\" to \"something changed\": Ask, Prepare, Process, Analyze, Share, Act. Iterative rather than strictly linear.",
     "courseId": "01-foundations",
     "lessonId": "01-foundations/02-the-data-analysis-process",
-    "confusableWith": ["data-life-cycle"],
+    "confusableWith": ["data-life-cycle", "structured-thinking"],
     "sequence": ["Ask", "Prepare", "Process", "Analyze", "Share", "Act"],
     "topics": ["process"]
   },
@@ -228,7 +228,7 @@
     "definition": "Using facts to guide business strategy, rather than relying on assumption or observation alone.",
     "courseId": "01-foundations",
     "lessonId": "01-foundations/05-data-driven-decision-making",
-    "confusableWith": ["gut-instinct"],
+    "confusableWith": ["gut-instinct", "data-inspired-decision-making"],
     "topics": ["decision-making"]
   },
   {
@@ -248,7 +248,7 @@
     "definition": "The question or problem data analysis resolves for a business — the concrete unit of work an analyst is assigned.",
     "courseId": "01-foundations",
     "lessonId": "01-foundations/05-data-driven-decision-making",
-    "confusableWith": [],
+    "confusableWith": ["scope-of-work"],
     "topics": ["decision-making", "stakeholders"]
   },
   {
@@ -338,7 +338,7 @@
     "definition": "A preset command that automatically performs a specified process or task using the data in a spreadsheet.",
     "courseId": "01-foundations",
     "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
-    "confusableWith": ["formula"],
+    "confusableWith": ["formula", "math-function"],
     "topics": ["spreadsheets"]
   },
   {

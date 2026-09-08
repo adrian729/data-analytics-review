@@ -1,0 +1,464 @@
+[
+  {
+    "id": "structured-thinking",
+    "term": "Structured thinking",
+    "aliases": [],
+    "definition": "The process of recognizing the current problem or situation, organizing available information, revealing gaps and opportunities, and identifying options — a way of breaking a vague, complex problem into smaller steps that lead to a logical solution.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/01-problem-solving-and-effective-questioning",
+    "confusableWith": ["data-analysis-process"],
+    "sequence": ["Recognize the problem or situation", "Organize available information", "Reveal gaps and opportunities", "Identify options"],
+    "topics": ["analytical-thinking", "process"]
+  },
+  {
+    "id": "problem-types",
+    "term": "Problem types",
+    "aliases": ["six problem types"],
+    "definition": "The various problems data analysts encounter: making predictions, categorizing things, spotting something unusual, identifying themes, discovering connections, and finding patterns.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/02-six-common-problem-types",
+    "confusableWith": [],
+    "topics": ["analytical-thinking", "process"]
+  },
+  {
+    "id": "smart-methodology",
+    "term": "SMART methodology",
+    "aliases": ["SMART questions"],
+    "definition": "A tool for determining a question's effectiveness based on whether it is specific, measurable, action-oriented, relevant, and time-bound.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": [],
+    "sequence": ["Specific", "Measurable", "Action-oriented", "Relevant", "Time-bound"],
+    "topics": ["decision-making", "process"]
+  },
+  {
+    "id": "specific-question",
+    "term": "Specific question",
+    "aliases": [],
+    "definition": "A question that is simple, significant, and focused on a single topic or a few closely related ideas.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": ["relevant-question"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "measurable-question",
+    "term": "Measurable question",
+    "aliases": [],
+    "definition": "A question whose answers can be quantified and assessed.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": [],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "action-oriented-question",
+    "term": "Action-oriented question",
+    "aliases": [],
+    "definition": "A question whose answers lead to change.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": [],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "relevant-question",
+    "term": "Relevant question",
+    "aliases": [],
+    "definition": "A question that has significance to the problem to be solved.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": ["specific-question"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "time-bound-question",
+    "term": "Time-bound question",
+    "aliases": [],
+    "definition": "A question that specifies a timeframe to be studied.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": [],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "leading-question",
+    "term": "Leading question",
+    "aliases": [],
+    "definition": "A question that steers people toward a certain response by suggesting an answer as part of the question — e.g. \"This product is too expensive, isn't it?\"",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": ["unfair-question"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "unfair-question",
+    "term": "Unfair question",
+    "aliases": [],
+    "definition": "A question that makes assumptions or is difficult to answer honestly.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/03-smart-questions",
+    "confusableWith": ["leading-question"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "qualitative-data",
+    "term": "Qualitative data",
+    "aliases": [],
+    "definition": "A subjective and explanatory measure of a quality or characteristic — collected with tools like focus groups, social media text analysis, and in-person interviews. Generally gives you the \"why\" behind a pattern.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/04-qualitative-and-quantitative-data",
+    "confusableWith": ["quantitative-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "quantitative-data",
+    "term": "Quantitative data",
+    "aliases": [],
+    "definition": "A specific and objective measure, such as a number, quantity, or range — collected with tools like structured interviews, surveys, and polls. Generally gives you the \"what\".",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/04-qualitative-and-quantitative-data",
+    "confusableWith": ["qualitative-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "big-data",
+    "term": "Big data",
+    "aliases": [],
+    "definition": "Large, complex datasets typically involving long periods of time, which enable data analysts to address far-reaching business problems. Usually kept in a database and queried; used by large organizations.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/05-big-and-small-data",
+    "confusableWith": ["small-data"],
+    "topics": ["data-types", "data-quality"]
+  },
+  {
+    "id": "small-data",
+    "term": "Small data",
+    "aliases": [],
+    "definition": "Small, specific data points typically involving a short, well-defined time period, useful for day-to-day decisions. Usually organized and analyzed in spreadsheets; used by small and midsize businesses.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/05-big-and-small-data",
+    "confusableWith": ["big-data"],
+    "topics": ["data-types", "data-quality"]
+  },
+  {
+    "id": "data-inspired-decision-making",
+    "term": "Data-inspired decision-making",
+    "aliases": [],
+    "definition": "The process of exploring different data sources to find out what they have in common — distinct from data-driven decision-making, which uses data findings directly to guide a specific decision.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["data-driven-decision-making"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "dashboard",
+    "term": "Dashboard",
+    "aliases": [],
+    "definition": "A tool that monitors live, incoming data, organizing information from multiple datasets into one central location so stakeholders can track, analyze, and visualize data to answer questions and solve problems.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["report"],
+    "topics": ["visualization", "tooling"]
+  },
+  {
+    "id": "report",
+    "term": "Report",
+    "aliases": [],
+    "definition": "A static collection of data periodically given to stakeholders — unlike a dashboard, it does not update live.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["dashboard"],
+    "topics": ["visualization"]
+  },
+  {
+    "id": "metric",
+    "term": "Metric",
+    "aliases": [],
+    "definition": "A single, quantifiable type of data that is used for measurement.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["metric-goal"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "metric-goal",
+    "term": "Metric goal",
+    "aliases": [],
+    "definition": "A measurable goal set by a company and evaluated using metrics.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["metric"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "algorithm",
+    "term": "Algorithm",
+    "aliases": [],
+    "definition": "A process or set of rules followed for a specific task.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": [],
+    "topics": ["tooling"]
+  },
+  {
+    "id": "pivot-table",
+    "term": "Pivot table",
+    "aliases": [],
+    "definition": "A data summarization tool used to sort, reorganize, group, count, total, or average data.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["pivot-chart"],
+    "topics": ["spreadsheets", "visualization"]
+  },
+  {
+    "id": "pivot-chart",
+    "term": "Pivot chart",
+    "aliases": [],
+    "definition": "A chart created from the fields in a pivot table.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["pivot-table"],
+    "topics": ["spreadsheets", "visualization"]
+  },
+  {
+    "id": "revenue",
+    "term": "Revenue",
+    "aliases": [],
+    "definition": "The total amount of income generated by the sale of goods or services.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["return-on-investment"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "return-on-investment",
+    "term": "Return on investment (ROI)",
+    "aliases": ["ROI"],
+    "definition": "A formula that uses the metrics of investment and profit to evaluate the success of an investment.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/06-sharing-data-dashboards-and-visualization",
+    "confusableWith": ["revenue"],
+    "topics": ["decision-making"]
+  },
+  {
+    "id": "open-data",
+    "term": "Open data",
+    "aliases": [],
+    "definition": "Data that is available to the public.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/07-spreadsheets-and-the-data-life-cycle",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "filtering",
+    "term": "Filtering",
+    "aliases": [],
+    "definition": "The process of showing only the data that meets a specified criteria while hiding the rest.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/07-spreadsheets-and-the-data-life-cycle",
+    "confusableWith": ["sorting"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "sorting",
+    "term": "Sorting",
+    "aliases": [],
+    "definition": "The process of arranging data into a meaningful order to make it easier to understand, analyze, and visualize.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/07-spreadsheets-and-the-data-life-cycle",
+    "confusableWith": ["filtering"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "cell-reference",
+    "term": "Cell reference",
+    "aliases": [],
+    "definition": "A cell or a range of cells in a worksheet, typically used in formulas and functions. A relative reference (e.g. A2) shifts when copied elsewhere; an absolute reference (e.g. $A$2) does not; a mixed reference (e.g. $A2 or A$2) locks only the row or only the column.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": ["range"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "range",
+    "term": "Range",
+    "aliases": [],
+    "definition": "A collection of two or more cells in a spreadsheet.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": ["cell-reference"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "math-expression",
+    "term": "Math expression",
+    "aliases": ["equation"],
+    "definition": "A calculation that involves addition, subtraction, multiplication, or division (also called an equation).",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "operator",
+    "term": "Operator",
+    "aliases": [],
+    "definition": "A symbol that names the operation or calculation to be performed — e.g. + for addition, - for subtraction, / for division, * for multiplication.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "order-of-operations",
+    "term": "Order of operations",
+    "aliases": [],
+    "definition": "Using parentheses to group together spreadsheet values in order to clarify the order in which operations should be performed.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "header",
+    "term": "Header",
+    "aliases": [],
+    "definition": "The first row in a spreadsheet that labels the type of data in each column.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "borders",
+    "term": "Borders",
+    "aliases": [],
+    "definition": "Lines that can be added around two or more cells on a spreadsheet.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "fill-handle",
+    "term": "Fill handle",
+    "aliases": [],
+    "definition": "A box in the lower-right-hand corner of a selected spreadsheet cell that can be dragged through neighboring cells to continue an instruction (a green square in Excel, a blue circle in Google Sheets).",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/08-spreadsheet-formulas",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "math-function",
+    "term": "Math function",
+    "aliases": [],
+    "definition": "A function that is used as part of a mathematical formula.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": ["function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "average-function",
+    "term": "AVERAGE",
+    "aliases": ["average function"],
+    "definition": "A spreadsheet function that returns an average of the values from a selected range.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "count-function",
+    "term": "COUNT",
+    "aliases": ["count function"],
+    "definition": "A spreadsheet function that counts the number of cells in a range that meet a specific criteria.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": ["countif-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "countif-function",
+    "term": "COUNTIF",
+    "aliases": ["countif function"],
+    "definition": "A spreadsheet function that returns the number of cells within a range that match a specified value — e.g. counting only the cells in an expense sheet labeled \"airfare\".",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": ["count-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "max-function",
+    "term": "MAX",
+    "aliases": ["max function"],
+    "definition": "A spreadsheet function that returns the largest numeric value from a range of cells.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": ["min-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "min-function",
+    "term": "MIN",
+    "aliases": ["min function"],
+    "definition": "A spreadsheet function that returns the smallest numeric value from a range of cells.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": ["max-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "sum-function",
+    "term": "SUM",
+    "aliases": ["sum function"],
+    "definition": "A spreadsheet function that adds the values of a selected range of cells.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/09-spreadsheet-functions",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "scope-of-work",
+    "term": "Scope of work (SOW)",
+    "aliases": ["SOW"],
+    "definition": "An agreed-upon outline of the tasks to be performed during a project.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/11-scope-of-work-and-structured-thinking",
+    "confusableWith": ["business-task", "problem-domain"],
+    "topics": ["analytical-thinking", "process"]
+  },
+  {
+    "id": "problem-domain",
+    "term": "Problem domain",
+    "aliases": [],
+    "definition": "The area of analysis that encompasses every activity affecting or affected by a problem.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/11-scope-of-work-and-structured-thinking",
+    "confusableWith": ["scope-of-work"],
+    "topics": ["analytical-thinking"]
+  },
+  {
+    "id": "reframing",
+    "term": "Reframing",
+    "aliases": [],
+    "definition": "Restating a problem or challenge, then redirecting it toward a potential resolution.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/12-working-with-stakeholders",
+    "confusableWith": [],
+    "topics": ["analytical-thinking", "stakeholders"]
+  },
+  {
+    "id": "turnover-rate",
+    "term": "Turnover rate",
+    "aliases": [],
+    "definition": "The rate at which employees voluntarily leave a company.",
+    "courseId": "02-ask-questions",
+    "lessonId": "02-ask-questions/12-working-with-stakeholders",
+    "confusableWith": [],
+    "topics": ["decision-making"]
+  }
+]
