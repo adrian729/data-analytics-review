@@ -74,9 +74,13 @@ function SessionPage() {
       const key = e.key.toLowerCase()
       if (e.key === ' ' || e.key === 'Enter' || e.key === 'ArrowRight') {
         e.preventDefault()
+        // A focused footer button would otherwise also fire its native
+        // click on this key's keyup, double-actioning the card.
+        if (document.activeElement instanceof HTMLElement) document.activeElement.blur()
         revealed ? next() : setRevealed(true)
       } else if (key === 'a' && revealed) {
         e.preventDefault()
+        if (document.activeElement instanceof HTMLElement) document.activeElement.blur()
         requeue()
       }
     }
@@ -152,13 +156,13 @@ function SessionPage() {
         {revealed ? (
           <>
             <div className="flex items-center gap-3">
-              <Button variant="outline" onClick={requeue}>
-                <RotateCcw className="size-4" />
+              <Button variant="outline" onClick={requeue} tabIndex={-1}>
+                <RotateCcw className="size-4" strokeWidth={2.5} />
                 Again later
               </Button>
-              <Button onClick={next}>
+              <Button onClick={next} tabIndex={-1}>
                 Next
-                <ArrowRight className="size-4" />
+                <ArrowRight className="size-4" strokeWidth={2.5} />
               </Button>
             </div>
             <p className="text-muted-foreground flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-xs">

@@ -89,11 +89,15 @@ function DeckBuilder() {
         </p>
 
         <div className="mt-5 flex flex-wrap items-center gap-3">
-          <Button asChild disabled={cards.length === 0}>
-            <Link to="/practice/session" search={search}>
-              Start session
-            </Link>
-          </Button>
+          {cards.length === 0 ? (
+            <Button disabled>Start session</Button>
+          ) : (
+            <Button asChild>
+              <Link to="/practice/session" search={search}>
+                Start session
+              </Link>
+            </Button>
+          )}
 
           {terms.length > 0 && (
             <Button variant="outline" onClick={() => setShowTerms((v) => !v)}>

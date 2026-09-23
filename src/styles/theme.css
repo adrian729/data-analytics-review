@@ -157,7 +157,9 @@
   --muted: oklch(0.906 0.0117 264.51); /* crust     #dce0e8 */
   --muted-foreground: oklch(0.492 0.0385 279.3); /* subtext1  #5c5f77 */
   --accent: oklch(0.8575 0.0145 268.48); /* surface0  #ccd0da — resting/active */
-  --accent-foreground: oklch(0.4355 0.043 279.33);
+  /* Distinct from --foreground so hover:text-accent-foreground isn't a no-op;
+   * darkened ~0.09 for stronger contrast against the light --accent-hover bg. */
+  --accent-foreground: oklch(0.3455 0.043 279.33);
   /* Darkest step that still clears 4.5:1 on accent-foreground (4.57:1). */
   --accent-hover: oklch(0.82 0.0145 268.48); /*           #c0c4ce */
   --destructive: oklch(0.4814 0.1943 2.76); /* red-600   #ad0054 */
@@ -186,14 +188,18 @@
   --popover-foreground: oklch(0.8787 0.0426 272.28);
   --primary: oklch(0.7871 0.1187 304.77); /* mauve     #cba6f7 */
   --primary-foreground: oklch(0.1828 0.0204 284.2);
-  /* Brightens on hover rather than dimming — 11.51:1 on primary-foreground. */
-  --primary-hover: oklch(0.8484 0.0841 304.77); /* mauve-200 #dac0fa */
+  /* Brightens on hover rather than dimming. Delta from --primary (~0.125)
+   * kept proportional to light mode's ~0.14 step, rather than the ~0.06 it
+   * was before. */
+  --primary-hover: oklch(0.9121 0.0841 304.77);
   --secondary: oklch(0.324 0.0319 281.98); /* surface0  #313244 */
   --secondary-foreground: oklch(0.8787 0.0426 272.28);
   --muted: oklch(0.324 0.0319 281.98); /* surface0  #313244 */
   --muted-foreground: oklch(0.751 0.0396 273.93); /* subtext0  #a6adc8 */
   --accent: oklch(0.4037 0.032 280.15); /* surface1  #45475a — resting/active */
-  --accent-foreground: oklch(0.8787 0.0426 272.28);
+  /* Distinct from --foreground so hover:text-accent-foreground isn't a no-op;
+   * brightened ~0.09 for stronger contrast against the mid-tone --accent-hover bg. */
+  --accent-foreground: oklch(0.9687 0.0426 272.28);
   --accent-hover: oklch(0.4765 0.034 278.64); /* surface2  #585b70 — 4.62:1 */
   --destructive: oklch(0.7556 0.1297 2.76); /* red       #f38ba8 */
   --destructive-foreground: oklch(0.1828 0.0204 284.2);
