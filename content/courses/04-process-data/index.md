@@ -1,0 +1,3 @@
+This is the Process phase: the work that happens between having data and being allowed to trust it. It starts with data integrity — the ways data gets quietly corrupted by replication, transfer, and manipulation — and with the statistics of working from a sample rather than a whole population: sample size, confidence level, margin of error.
+
+The rest is cleaning. You'll name the five types of dirty data, fix them with spreadsheet tools and functions, do the same work in SQL on datasets too big for a spreadsheet, and then close the loop by verifying that the cleaning actually worked and documenting it so everyone else can see what you changed and why.

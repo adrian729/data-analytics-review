@@ -1,0 +1,183 @@
+[
+  {
+    "id": "capstone-project",
+    "term": "Capstone project",
+    "aliases": [],
+    "definition": "The final project at the end of the certificate that brings together all prior learning on a data-analytics scenario; on Coursera it is called the capstone, in hiring outside the classroom the same work is more often called a case study.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/01-capstone-case-studies-and-portfolios",
+    "confusableWith": [
+      "case-study"
+    ],
+    "topics": [
+      "process",
+      "career"
+    ]
+  },
+  {
+    "id": "case-study",
+    "term": "Case study",
+    "aliases": [
+      "case study interview"
+    ],
+    "definition": "A practice data-analytics project with a title, problem statement, goals and deliverables, and a dataset, commonly used by employers under a time limit to assess how a candidate approaches a data problem.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/01-capstone-case-studies-and-portfolios",
+    "confusableWith": [
+      "capstone-project",
+      "portfolio"
+    ],
+    "topics": [
+      "process",
+      "career"
+    ]
+  },
+  {
+    "id": "portfolio",
+    "term": "Portfolio",
+    "aliases": [],
+    "definition": "A curated collection of case studies and project samples hosted publicly, for example on GitHub, Kaggle, Tableau, or a personal blog, and linked from a resume to showcase skills to employers.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/01-capstone-case-studies-and-portfolios",
+    "confusableWith": [
+      "case-study"
+    ],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "portfolio-checklist",
+    "term": "Portfolio checklist",
+    "aliases": [],
+    "definition": "The set of components to include in a portfolio: concise biography, contact page, resume, career accomplishments, and an optional photo.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/02-what-best-in-class-looks-like",
+    "confusableWith": [
+      "case-study-checklist"
+    ],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "case-study-checklist",
+    "term": "Case study checklist",
+    "aliases": [],
+    "definition": "The set of sections to include in a case study: introduction stating purpose and assumptions, problems with supporting facts, solutions with alternatives and pros and cons, conclusion summarizing takeaways, and next steps recommending who should do what and when.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/02-what-best-in-class-looks-like",
+    "confusableWith": [
+      "portfolio-checklist"
+    ],
+    "topics": [
+      "career",
+      "process"
+    ]
+  },
+  {
+    "id": "case-study-track-a",
+    "term": "Track A",
+    "aliases": [
+      "Case study Track A",
+      "Working with Existing Questions and Datasets"
+    ],
+    "definition": "The capstone track that uses a given business task and dataset, such as the Cyclistic or Bellabeat packets, to demonstrate job skills for interviews by running a defined analysis to specified deliverables.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/03-choosing-your-case-study-track",
+    "confusableWith": [
+      "case-study-track-b"
+    ],
+    "topics": [
+      "process",
+      "career"
+    ]
+  },
+  {
+    "id": "case-study-track-b",
+    "term": "Track B",
+    "aliases": [
+      "Case study Track B",
+      "Choosing Your Own Questions and Dataset"
+    ],
+    "definition": "The capstone track that requires finding a public dataset on a topic of personal interest, creating the business task and audience, and producing a self-directed case study through the full data analysis process.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/03-choosing-your-case-study-track",
+    "confusableWith": [
+      "case-study-track-a"
+    ],
+    "topics": [
+      "process",
+      "career"
+    ]
+  },
+  {
+    "id": "online-portfolio",
+    "term": "Online portfolio",
+    "aliases": [
+      "portfolio site"
+    ],
+    "definition": "A portfolio published on a public host such as Kaggle, GitHub, Tableau Public, Medium, WordPress, or Google Sites, kept personal, simple, relevant, presentable, and unique with cited sources, and linked from professional profiles.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/06-sharing-your-case-study-and-portfolio",
+    "confusableWith": [
+      "portfolio"
+    ],
+    "topics": [
+      "career",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "elevator-pitch",
+    "term": "Elevator pitch",
+    "aliases": [],
+    "definition": "A short statement of a couple of sentences describing an idea or concept, condensed enough to explain to someone in an elevator.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/08-the-analytics-interview",
+    "confusableWith": [],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "interview-warmup",
+    "term": "Interview Warmup",
+    "aliases": [
+      "Interview Warm-up"
+    ],
+    "definition": "A Google tool at grow.google/interview-warmup that helps analysts practice answering interview questions, transcribes responses in real time, and provides insights on talking points, most-used words, and job-related terms.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/08-the-analytics-interview",
+    "confusableWith": [],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "generative-ai",
+    "term": "Generative AI",
+    "aliases": [
+      "generative artificial intelligence"
+    ],
+    "definition": "A type of AI that can generate new content, like text, images, or other media, based on a prompt.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/11-ai-for-data-analytics",
+    "confusableWith": [],
+    "topics": [
+      "tooling"
+    ]
+  },
+  {
+    "id": "prompt",
+    "term": "Prompt",
+    "aliases": [],
+    "definition": "Input that provides instructions to an AI tool about how to generate output.",
+    "courseId": "08-capstone",
+    "lessonId": "08-capstone/11-ai-for-data-analytics",
+    "confusableWith": [],
+    "topics": [
+      "tooling"
+    ]
+  }
+]

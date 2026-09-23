@@ -1,0 +1,283 @@
+[
+  {
+    "id": "python",
+    "term": "Python",
+    "aliases": [],
+    "definition": "A general-purpose, interpreted programming language with dynamic typing and a large ecosystem of libraries, used for automation, data analysis, web development, and scientific computing.",
+    "courseId": "07-python",
+    "lessonId": "07-python/01-why-python-and-jupyter-notebooks",
+    "confusableWith": [],
+    "topics": [
+      "python"
+    ]
+  },
+  {
+    "id": "jupyter-notebook",
+    "term": "Jupyter Notebook",
+    "aliases": [
+      "Jupyter",
+      "notebook"
+    ],
+    "definition": "An open-source document format and web-based environment that stores a sequence of cells containing executable code, its output, and Markdown narrative, run by a language kernel.",
+    "courseId": "07-python",
+    "lessonId": "07-python/01-why-python-and-jupyter-notebooks",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "tooling"
+    ]
+  },
+  {
+    "id": "object",
+    "term": "Object",
+    "aliases": [],
+    "definition": "A runtime instance of a class in Python that bundles data and behavior; every value in Python is an object with a type, identity, and methods.",
+    "courseId": "07-python",
+    "lessonId": "07-python/01-why-python-and-jupyter-notebooks",
+    "confusableWith": [],
+    "topics": [
+      "python"
+    ]
+  },
+  {
+    "id": "variable",
+    "term": "Variable",
+    "aliases": [],
+    "definition": "A name bound to an object in memory via assignment with =, which references the current value rather than declaring a fixed type or storage slot.",
+    "courseId": "07-python",
+    "lessonId": "07-python/02-variables-and-data-types",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "python-data-types",
+    "term": "Python data types",
+    "aliases": [],
+    "definition": "The core built-in categories for values in Python, commonly int for integers, float for floating-point numbers, str for text, and bool for True/False, inspected with type().",
+    "courseId": "07-python",
+    "lessonId": "07-python/02-variables-and-data-types",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "type-conversion",
+    "term": "Type conversion",
+    "aliases": [
+      "type casting"
+    ],
+    "definition": "Explicitly creating a value of a different type from an existing value using constructor functions such as int(), float(), str(), and bool().",
+    "courseId": "07-python",
+    "lessonId": "07-python/02-variables-and-data-types",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "code-comment",
+    "term": "Code comment",
+    "aliases": [
+      "comment"
+    ],
+    "definition": "Non-executing text in source code prefixed with # (or a docstring in triple quotes) that explains intent for readers and is ignored by the interpreter.",
+    "courseId": "07-python",
+    "lessonId": "07-python/03-functions",
+    "confusableWith": [],
+    "topics": [
+      "python"
+    ]
+  },
+  {
+    "id": "conditional-statement",
+    "term": "Conditional statement",
+    "aliases": [
+      "if statement",
+      "if/elif/else"
+    ],
+    "definition": "A control-flow construct (if, elif, else) that evaluates a condition to a boolean and executes the first branch whose condition is true, with indentation defining each block.",
+    "courseId": "07-python",
+    "lessonId": "07-python/04-conditional-statements",
+    "confusableWith": [],
+    "topics": [
+      "python"
+    ]
+  },
+  {
+    "id": "loop",
+    "term": "Loop",
+    "aliases": [],
+    "definition": "A control-flow construct that repeatedly executes a block, either while a condition remains true (while) or once per element in a sequence (for), with break and continue modifying iteration.",
+    "courseId": "07-python",
+    "lessonId": "07-python/05-loops",
+    "confusableWith": [],
+    "topics": [
+      "python"
+    ]
+  },
+  {
+    "id": "string-slicing",
+    "term": "String slicing",
+    "aliases": [
+      "slice",
+      "slicing"
+    ],
+    "definition": "Extracting a substring from a string with bracket notation s[start:stop:step], where indices are zero-based and stop is exclusive, supporting omitted bounds and negative indices.",
+    "courseId": "07-python",
+    "lessonId": "07-python/06-strings-in-python",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "f-string",
+    "term": "F-string",
+    "aliases": [
+      "formatted string literal",
+      "f string"
+    ],
+    "definition": "A formatted string literal prefixed with f that evaluates expressions inside braces at runtime, as in f\"{value}\" or f\"{x:.2f}\".",
+    "courseId": "07-python",
+    "lessonId": "07-python/06-strings-in-python",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "list",
+    "term": "List",
+    "aliases": [],
+    "definition": "An ordered, mutable sequence type in Python written with square brackets, allowing duplicate elements, indexing, slicing, and methods such as append().",
+    "courseId": "07-python",
+    "lessonId": "07-python/07-core-data-structures",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "tuple",
+    "term": "Tuple",
+    "aliases": [],
+    "definition": "An ordered, immutable sequence type in Python written with parentheses, which can be used as a dictionary key when its elements are hashable and supports unpacking.",
+    "courseId": "07-python",
+    "lessonId": "07-python/07-core-data-structures",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "dictionary",
+    "term": "Dictionary",
+    "aliases": [
+      "dict"
+    ],
+    "definition": "A mutable mapping type in Python that stores key–value pairs in braces, provides unique keys, preserves insertion order, and exposes methods like keys(), values(), and items().",
+    "courseId": "07-python",
+    "lessonId": "07-python/07-core-data-structures",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "set",
+    "term": "Set",
+    "aliases": [],
+    "definition": "An unordered collection type in Python that stores unique hashable elements, supports fast membership testing, and provides set operations such as union, intersection, and difference.",
+    "courseId": "07-python",
+    "lessonId": "07-python/07-core-data-structures",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types"
+    ]
+  },
+  {
+    "id": "list-comprehension",
+    "term": "List comprehension",
+    "aliases": [
+      "comprehension"
+    ],
+    "definition": "A concise expression of the form [expression for item in iterable if condition] that builds a new list by transforming and optionally filtering elements of an iterable.",
+    "courseId": "07-python",
+    "lessonId": "07-python/07-core-data-structures",
+    "confusableWith": [],
+    "topics": [
+      "python"
+    ]
+  },
+  {
+    "id": "python-package",
+    "term": "Python package",
+    "aliases": [
+      "package",
+      "library",
+      "module"
+    ],
+    "definition": "A directory of Python modules with an importable namespace, distributed as a library that extends the language with additional functionality installed via a package manager.",
+    "courseId": "07-python",
+    "lessonId": "07-python/08-libraries-pandas-and-numpy",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "tooling"
+    ]
+  },
+  {
+    "id": "numpy",
+    "term": "NumPy",
+    "aliases": [],
+    "definition": "A Python package providing the ndarray object for homogeneous, contiguous numeric arrays and vectorized operations implemented in compiled code.",
+    "courseId": "07-python",
+    "lessonId": "07-python/08-libraries-pandas-and-numpy",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "tooling"
+    ]
+  },
+  {
+    "id": "pandas",
+    "term": "pandas",
+    "aliases": [],
+    "definition": "A Python package built on NumPy that provides Series and DataFrame structures for labeled, tabular data manipulation and analysis.",
+    "courseId": "07-python",
+    "lessonId": "07-python/08-libraries-pandas-and-numpy",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "tooling"
+    ]
+  },
+  {
+    "id": "dataframe",
+    "term": "DataFrame",
+    "aliases": [
+      "data frame"
+    ],
+    "definition": "A two-dimensional, labeled tabular data structure in pandas composed of rows and named columns, each column backed by a Series and supporting vectorized operations.",
+    "courseId": "07-python",
+    "lessonId": "07-python/08-libraries-pandas-and-numpy",
+    "confusableWith": [],
+    "topics": [
+      "python",
+      "data-types",
+      "tooling"
+    ]
+  }
+]

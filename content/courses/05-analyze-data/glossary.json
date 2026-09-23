@@ -1,0 +1,435 @@
+[
+  {
+    "id": "sort-function",
+    "term": "SORT",
+    "aliases": [
+      "SORT function"
+    ],
+    "definition": "SORT: A spreadsheet function that sorts the contents of a specified range.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/02-sorting-and-filtering-in-spreadsheets",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "filter-view",
+    "term": "Filter view",
+    "aliases": [],
+    "definition": "A view in Google Sheets that lets you filter data for yourself without affecting how other collaborators see the spreadsheet.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/02-sorting-and-filtering-in-spreadsheets",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "round-function",
+    "term": "ROUND",
+    "aliases": [],
+    "definition": "A SQL function that returns a number rounded to a certain number of decimal places.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/05-transforming-data-with-sql",
+    "confusableWith": [],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "text-string",
+    "term": "Text string",
+    "aliases": [],
+    "definition": "A group of characters within a cell, most often composed of letters.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/06-combining-data-in-spreadsheets",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "aggregation",
+    "term": "Aggregation",
+    "aliases": [],
+    "definition": "The process of collecting or gathering many separate pieces into a whole.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/09-aggregating-data-with-vlookup",
+    "confusableWith": [
+      "data-aggregation"
+    ],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "data-aggregation",
+    "term": "Data aggregation",
+    "aliases": [],
+    "definition": "The process of gathering data from multiple sources and combining it into a single, summarized collection.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/09-aggregating-data-with-vlookup",
+    "confusableWith": [
+      "aggregation"
+    ],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "vlookup",
+    "term": "VLOOKUP",
+    "aliases": [
+      "Vertical lookup"
+    ],
+    "definition": "A spreadsheet function that vertically searches for a certain value in a column to return a corresponding piece of information.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/09-aggregating-data-with-vlookup",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "absolute-reference",
+    "term": "Absolute reference",
+    "aliases": [],
+    "definition": "A reference within a function that is locked so that rows and columns won't change if the function is copied.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/09-aggregating-data-with-vlookup",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "match-function",
+    "term": "MATCH",
+    "aliases": [
+      "MATCH function"
+    ],
+    "definition": "A spreadsheet function used to locate the position of a specific lookup value.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/09-aggregating-data-with-vlookup",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "value-function",
+    "term": "VALUE",
+    "aliases": [
+      "VALUE function"
+    ],
+    "definition": "A spreadsheet function that converts a text string that represents a number to a numeric value.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/09-aggregating-data-with-vlookup",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets",
+      "data-types"
+    ]
+  },
+  {
+    "id": "join",
+    "term": "JOIN",
+    "aliases": [],
+    "definition": "A SQL function that is used to combine rows from two or more tables based on a related column.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "aliasing"
+    ],
+    "topics": [
+      "sql",
+      "databases"
+    ]
+  },
+  {
+    "id": "inner-join",
+    "term": "INNER JOIN",
+    "aliases": [],
+    "definition": "A SQL function that returns records with matching values in both tables.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "left-join",
+      "right-join",
+      "outer-join"
+    ],
+    "topics": [
+      "sql",
+      "databases"
+    ]
+  },
+  {
+    "id": "left-join",
+    "term": "LEFT JOIN",
+    "aliases": [],
+    "definition": "A SQL function that will return all the records from the left table and only the matching records from the right table.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "inner-join",
+      "right-join",
+      "outer-join"
+    ],
+    "topics": [
+      "sql",
+      "databases"
+    ]
+  },
+  {
+    "id": "right-join",
+    "term": "RIGHT JOIN",
+    "aliases": [],
+    "definition": "A SQL function that will return all records from the right table and only the matching records from the left.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "inner-join",
+      "left-join",
+      "outer-join"
+    ],
+    "topics": [
+      "sql",
+      "databases"
+    ]
+  },
+  {
+    "id": "outer-join",
+    "term": "OUTER JOIN",
+    "aliases": [
+      "FULL OUTER JOIN"
+    ],
+    "definition": "A SQL function that combines RIGHT and LEFT JOIN to return all matching records in both tables.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "inner-join",
+      "left-join",
+      "right-join"
+    ],
+    "topics": [
+      "sql",
+      "databases"
+    ]
+  },
+  {
+    "id": "aliasing",
+    "term": "Aliasing",
+    "aliases": [],
+    "definition": "Temporarily naming a table or column in a query to make it easier to read and write.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "join"
+    ],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "count-distinct",
+    "term": "COUNT DISTINCT",
+    "aliases": [],
+    "definition": "A SQL function that only returns the distinct values in a specified range, dropping duplicate rows and null values from the result set.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/10-joining-tables-in-sql",
+    "confusableWith": [
+      "count-function"
+    ],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "subquery",
+    "term": "Subquery",
+    "aliases": [
+      "inner query",
+      "nested query"
+    ],
+    "definition": "A SQL query that is nested inside a larger query.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/11-working-with-subqueries",
+    "confusableWith": [
+      "query"
+    ],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "profit-margin",
+    "term": "Profit margin",
+    "aliases": [],
+    "definition": "A percentage that indicates how many cents of profit have been generated for each dollar of sale.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/12-common-data-calculations",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets",
+      "statistics"
+    ]
+  },
+  {
+    "id": "array",
+    "term": "Array",
+    "aliases": [],
+    "definition": "A collection of values in spreadsheet cells.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/13-conditional-and-composite-functions",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "sumproduct-function",
+    "term": "SUMPRODUCT",
+    "aliases": [],
+    "definition": "A function that multiplies arrays and returns the sum of those products.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/13-conditional-and-composite-functions",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "sumif-function",
+    "term": "SUMIF",
+    "aliases": [],
+    "definition": "A function that adds numeric data based on one condition.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/13-conditional-and-composite-functions",
+    "confusableWith": [
+      "countif-function"
+    ],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "calculated-field",
+    "term": "Calculated field",
+    "aliases": [],
+    "definition": "A new field within a pivot table that carries out certain calculations based on the values of other fields.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/14-pivot-tables-for-analysis",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "modulo",
+    "term": "Modulo",
+    "aliases": [
+      "%"
+    ],
+    "definition": "An operator (%) that returns the remainder when one number is divided by another.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/15-sql-calculations-and-group-by",
+    "confusableWith": [],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "group-by-clause",
+    "term": "GROUP BY",
+    "aliases": [],
+    "definition": "A SQL clause that groups rows that have the same values from a table into summary rows.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/15-sql-calculations-and-group-by",
+    "confusableWith": [],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "data-validation-process",
+    "term": "Data validation process",
+    "aliases": [],
+    "definition": "The process of checking and rechecking the quality of data so that it is complete, accurate, secure, and consistent.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/16-the-data-validation-process",
+    "confusableWith": [
+      "data-validation"
+    ],
+    "topics": [
+      "data-quality"
+    ]
+  },
+  {
+    "id": "temporary-table",
+    "term": "Temporary table",
+    "aliases": [
+      "temp table"
+    ],
+    "definition": "A database table that is created and exists temporarily on a database server.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/17-working-with-temporary-tables",
+    "confusableWith": [],
+    "topics": [
+      "sql",
+      "databases"
+    ]
+  },
+  {
+    "id": "summary-table",
+    "term": "Summary table",
+    "aliases": [],
+    "definition": "A table used to summarize statistical information about data.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/17-working-with-temporary-tables",
+    "confusableWith": [],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "underscores",
+    "term": "Underscores",
+    "aliases": [],
+    "definition": "Lines used to underline words and connect text characters.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/15-sql-calculations-and-group-by",
+    "confusableWith": [],
+    "topics": [
+      "sql"
+    ]
+  },
+  {
+    "id": "sort-sheet",
+    "term": "Sort sheet",
+    "aliases": [],
+    "definition": "A spreadsheet menu function that sorts all data by the ranking of a specific sorted column and keeps data together across rows.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/02-sorting-and-filtering-in-spreadsheets",
+    "confusableWith": [
+      "sort-range"
+    ],
+    "topics": [
+      "spreadsheets"
+    ]
+  },
+  {
+    "id": "sort-range",
+    "term": "Sort range",
+    "aliases": [],
+    "definition": "A spreadsheet menu function that sorts a specified range and preserves the cells outside the range.",
+    "courseId": "05-analyze-data",
+    "lessonId": "05-analyze-data/02-sorting-and-filtering-in-spreadsheets",
+    "confusableWith": [
+      "sort-sheet"
+    ],
+    "topics": [
+      "spreadsheets"
+    ]
+  }
+]

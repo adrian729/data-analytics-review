@@ -13,6 +13,8 @@ revisits:
     note: First defined against the six data analysis phases. Here it's paired with the scope of work that keeps a project's problem domain from quietly expanding mid-project.
   - termId: business-task
     note: Course 1 defined the business task a project answers. A scope of work is the agreed-upon breakdown of the tasks needed to actually deliver on it.
+  - termId: context
+    note: Course 1 defined context in the abstract. This lesson is the concrete version — the who/what/where/when/why/how questions that turn a bare dataset into something you can actually trust and act on.
 topics:
   - analytical-thinking
   - process
@@ -26,7 +28,9 @@ Scope matters because it defines the [problem domain](/glossary#problem-domain):
 
 ## Staying objective
 
-Data doesn't mean much without context, and context is personal — two analysts can curate the same dataset, follow the same steps, and still reach different conclusions, because conscious and subconscious biases (cultural, social, market) shape how each of them interprets it. Staying objective means recognizing all sides of an argument before drawing a conclusion, not just the one your own bias points to.
+Data doesn't mean much without [context](/glossary#context), and context is personal — two analysts can curate the same dataset, follow the same steps, and still reach different conclusions, because conscious and subconscious biases (cultural, social, market) shape how each of them interprets it. Staying objective means recognizing all sides of an argument before drawing a conclusion, not just the one your own bias points to.
+
+A bare table makes the point: `2010 | 28000`, `2005 | 18000`, `2000 | 23000`, `1995 | 10000` could be almost anything. Label the columns "Year a survey was conducted" and "Number of respondents," and it suddenly makes sense — including why the rows are five years apart.
 
 To put a dataset into context, ask:
 

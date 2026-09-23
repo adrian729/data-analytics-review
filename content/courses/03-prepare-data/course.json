@@ -4,7 +4,23 @@
   "title": "Prepare Data for Exploration",
   "shortTitle": "Prepare Data",
   "summary": "Choosing and collecting the right data: data types, bias and credibility, databases, and the ethics of data collection.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["data-types", "data-quality", "databases", "ethics-fairness"]
+  "status": "authored",
+  "lessonOrder": [
+    "03-prepare-data/01-selecting-the-right-data",
+    "03-prepare-data/02-data-formats-and-structure",
+    "03-prepare-data/03-data-types-fields-and-values",
+    "03-prepare-data/04-wide-and-long-data",
+    "03-prepare-data/05-bias-in-data",
+    "03-prepare-data/06-data-credibility-and-sourcing",
+    "03-prepare-data/07-data-ethics-and-privacy",
+    "03-prepare-data/08-open-data-and-data-access",
+    "03-prepare-data/09-working-with-databases",
+    "03-prepare-data/10-metadata-and-data-governance",
+    "03-prepare-data/11-accessing-sorting-and-filtering-data",
+    "03-prepare-data/12-sql-for-large-datasets",
+    "03-prepare-data/13-organizing-your-data",
+    "03-prepare-data/14-securing-your-data",
+    "03-prepare-data/15-building-your-data-community-presence"
+  ],
+  "topics": ["data-types", "data-quality", "databases", "ethics-fairness", "sql", "career"]
 }

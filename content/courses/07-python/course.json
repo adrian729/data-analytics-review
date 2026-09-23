@@ -3,8 +3,21 @@
   "number": 7,
   "title": "Introduction to Data Analysis Using Python",
   "shortTitle": "Python",
-  "summary": "Python for analysts: syntax fundamentals, data structures, and using pandas to prepare, analyze, and visualize data.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["python", "visualization"]
+  "summary": "UNVERIFIED DRAFT — reconstructed from personal course notes + public syllabus pages because no mirror of the 2025 Python course exists; verify against the live course before trusting. Python fundamentals: notebooks, variables and types, functions, conditionals, loops, strings, data structures, and pandas/NumPy.",
+  "status": "in-progress",
+  "lessonOrder": [
+    "07-python/01-why-python-and-jupyter-notebooks",
+    "07-python/02-variables-and-data-types",
+    "07-python/03-functions",
+    "07-python/04-conditional-statements",
+    "07-python/05-loops",
+    "07-python/06-strings-in-python",
+    "07-python/07-core-data-structures",
+    "07-python/08-libraries-pandas-and-numpy"
+  ],
+  "topics": [
+    "python",
+    "tooling",
+    "data-types"
+  ]
 }

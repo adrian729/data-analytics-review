@@ -3,8 +3,17 @@
   "number": 9,
   "title": "Accelerate Your Job Search with AI",
   "shortTitle": "Job Search",
-  "summary": "Using AI tools to target roles, tailor application materials, and prepare for data analytics interviews.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["career"]
+  "summary": "UNVERIFIED DRAFT — reconstructed from personal course notes + public syllabus pages; no mirror of this course exists. Using AI tools (Gemini, Career Dreamer) to map transferable skills, plan the search, tailor applications, and practice interviews.",
+  "status": "in-progress",
+  "lessonOrder": [
+    "09-job-search/01-transferable-skills-with-ai",
+    "09-job-search/02-plan-and-apply-with-ai",
+    "09-job-search/03-professional-online-presence",
+    "09-job-search/04-manage-applications-with-ai",
+    "09-job-search/05-interview-prep-with-ai",
+    "09-job-search/06-after-the-interview"
+  ],
+  "topics": [
+    "career"
+  ]
 }

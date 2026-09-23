@@ -4,7 +4,23 @@
   "title": "Google Data Analytics Capstone: Complete a Case Study",
   "shortTitle": "Capstone",
   "summary": "A full end-to-end case study, taken through all six phases and packaged as a portfolio piece.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["process", "career"]
+  "status": "authored",
+  "lessonOrder": [
+    "08-capstone/01-capstone-case-studies-and-portfolios",
+    "08-capstone/02-what-best-in-class-looks-like",
+    "08-capstone/03-choosing-your-case-study-track",
+    "08-capstone/04-cyclistic-speedy-success-case",
+    "08-capstone/05-bellabeat-play-it-smart-case",
+    "08-capstone/06-sharing-your-case-study-and-portfolio",
+    "08-capstone/07-sharing-your-work-with-recruiters",
+    "08-capstone/08-the-analytics-interview",
+    "08-capstone/09-before-you-accept-negotiating",
+    "08-capstone/10-putting-your-certificate-to-work",
+    "08-capstone/11-ai-for-data-analytics"
+  ],
+  "topics": [
+    "process",
+    "career",
+    "tooling"
+  ]
 }

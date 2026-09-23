@@ -1,0 +1,805 @@
+[
+  {
+    "id": "headline",
+    "term": "Headline",
+    "aliases": [],
+    "definition": "Text at the top of a visualization that communicates the data being presented.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "subtitle",
+    "term": "Subtitle",
+    "aliases": [],
+    "definition": "Text that supports a headline by adding context and description.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "label",
+    "term": "Label",
+    "aliases": [],
+    "definition": "Text in a visualization that identifies a value or describes a scale.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "legend",
+    "term": "Legend",
+    "aliases": [],
+    "definition": "A tool that identifies the meaning of various elements in a data visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "annotation",
+    "term": "Annotation",
+    "aliases": [],
+    "definition": "Text that briefly explains data or helps focus the audience on a particular aspect of the data in a visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "static-visualization",
+    "term": "Static visualization",
+    "aliases": [],
+    "definition": "A data visualization that does not change over time unless it is edited.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [
+      "dynamic-visualizations"
+    ],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "dynamic-visualizations",
+    "term": "Dynamic visualizations",
+    "aliases": [],
+    "definition": "Data visualizations that are interactive or change over time.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/01-why-data-visualization-matters",
+    "confusableWith": [
+      "static-visualization"
+    ],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "chart",
+    "term": "Chart",
+    "aliases": [],
+    "definition": "A graphical representation of data from a worksheet.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "bar-graph",
+    "term": "Bar graph",
+    "aliases": [
+      "column chart"
+    ],
+    "definition": "A data visualization that uses size to contrast and compare two or more values.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [
+      "column-chart"
+    ],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "line-graph",
+    "term": "Line graph",
+    "aliases": [
+      "line chart"
+    ],
+    "definition": "A data visualization that uses one or more lines to display shifts or changes in data over time.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "pie-chart",
+    "term": "Pie chart",
+    "aliases": [],
+    "definition": "A data visualization that uses segments of a circle to represent the proportions of each data category compared to the whole.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "scatterplot",
+    "term": "Scatterplot",
+    "aliases": [],
+    "definition": "A data visualization that represents relationships between different variables with individual data points without a connecting line.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "histogram",
+    "term": "Histogram",
+    "aliases": [
+      "distribution graph"
+    ],
+    "definition": "A data visualization that shows how often data values fall into certain ranges.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "heat-map",
+    "term": "Heat map",
+    "aliases": [],
+    "definition": "A data visualization that uses color contrast to compare categories in a dataset.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "map",
+    "term": "Map",
+    "aliases": [],
+    "definition": "A data visualization that organizes data geographically.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "cluster",
+    "term": "Cluster",
+    "aliases": [
+      "clustering"
+    ],
+    "definition": "A collection of data points on a data visualization with similar values.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "x-axis",
+    "term": "X-axis",
+    "aliases": [],
+    "definition": "The horizontal line of a graph usually placed at the bottom, which is often used to represent time scales and discrete categories.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "y-axis",
+    "term": "Y-axis",
+    "aliases": [],
+    "definition": "The vertical line of a graph usually placed to the left, which is often used to represent frequencies and other numerical variables.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "causation",
+    "term": "Causation",
+    "aliases": [],
+    "definition": "When an action directly leads to an outcome, such as a cause-effect relationship.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/02-types-of-data-visualizations",
+    "confusableWith": [
+      "correlation"
+    ],
+    "topics": [
+      "statistics"
+    ]
+  },
+  {
+    "id": "decision-tree",
+    "term": "Decision tree",
+    "aliases": [],
+    "definition": "A tool that helps analysts make decisions about critical features of a visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/03-choosing-the-right-visualization",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "mental-model",
+    "term": "Mental model",
+    "aliases": [],
+    "definition": "A data analyst's thought process and approach to a problem.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/03-choosing-the-right-visualization",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "ranking",
+    "term": "Ranking",
+    "aliases": [],
+    "definition": "A system to position values of a dataset within a scale of achievement or status.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/03-choosing-the-right-visualization",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "relativity",
+    "term": "Relativity",
+    "aliases": [],
+    "definition": "The process of considering observations in relation or proportion to something else.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/03-choosing-the-right-visualization",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "data-composition",
+    "term": "Data composition",
+    "aliases": [],
+    "definition": "The process of combining the individual parts in a visualization and displaying them together as a whole.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/03-choosing-the-right-visualization",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "balance",
+    "term": "Balance",
+    "aliases": [],
+    "definition": "The design principle of creating aesthetic appeal and clarity in a data visualization by evenly distributing visual elements.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "emphasis",
+    "term": "Emphasis",
+    "aliases": [],
+    "definition": "The design principle of arranging visual elements to focus the audience's attention on important information in a data visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "movement",
+    "term": "Movement",
+    "aliases": [],
+    "definition": "The design principle of arranging visual elements to guide the audience's eyes from one part of a data visualization to another.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "pattern",
+    "term": "Pattern",
+    "aliases": [],
+    "definition": "The design principle of using similar visual elements to demonstrate trends and relationships in a data visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "repetition",
+    "term": "Repetition",
+    "aliases": [],
+    "definition": "The design principle of repeating visual elements to demonstrate meaning in a data visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "proportion",
+    "term": "Proportion",
+    "aliases": [],
+    "definition": "The design principle of using the relative size and arrangement of visual elements to demonstrate information in a data visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "rhythm",
+    "term": "Rhythm",
+    "aliases": [],
+    "definition": "The design principle of creating movement and flow in a data visualization to engage an audience.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "variety",
+    "term": "Variety",
+    "aliases": [],
+    "definition": "The design principle of using different kinds of visual elements in a data visualization to engage an audience.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "unity",
+    "term": "Unity",
+    "aliases": [],
+    "definition": "The design principle of using visual elements that complement each other to create aesthetic appeal and clarity in a data visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "visual-form",
+    "term": "Visual form",
+    "aliases": [],
+    "definition": "The appearance of a data visualization that gives it structure and aesthetic appeal.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/04-principles-of-design",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "design-thinking",
+    "term": "Design thinking",
+    "aliases": [],
+    "definition": "A process used to solve complex problems in a user-centric way.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/05-design-thinking-and-accessibility",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "pre-attentive-attributes",
+    "term": "Pre-attentive attributes",
+    "aliases": [],
+    "definition": "The elements of a data visualization that an audience recognizes automatically without conscious effort.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/05-design-thinking-and-accessibility",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "alternative-text",
+    "term": "Alternative text",
+    "aliases": [],
+    "definition": "Text that provides an alternative to non-text content, such as images and videos.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/05-design-thinking-and-accessibility",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "tableau",
+    "term": "Tableau",
+    "aliases": [],
+    "definition": "A business intelligence and analytics platform that helps people visualize, understand, and make decisions with data",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/06-getting-started-with-tableau",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "area-chart",
+    "term": "Area chart",
+    "aliases": [],
+    "definition": "A data visualization that uses individual data points for a changing variable connected by a continuous line with a filled-in area underneath",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "box-plot",
+    "term": "Box plot",
+    "aliases": [],
+    "definition": "A data visualization that displays the distribution of values along an x-axis",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "bullet-graph",
+    "term": "Bullet graph",
+    "aliases": [],
+    "definition": "A data visualization that displays data as a horizontal bar chart moving toward a desired value",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "circle-view",
+    "term": "Circle view",
+    "aliases": [],
+    "definition": "A data visualization that shows comparative strength in data",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "column-chart",
+    "term": "Column chart",
+    "aliases": [],
+    "definition": "A data visualization that uses individual data points for a changing variable, represented as vertical columns",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [
+      "bar-graph"
+    ],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "combo-chart",
+    "term": "Combo chart",
+    "aliases": [],
+    "definition": "A data visualization that combines more than one visualization type",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "density-map",
+    "term": "Density map",
+    "aliases": [],
+    "definition": "A data visualization that represents concentrations, with color representing the number or frequency of data points in a given area on a map",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "filled-map",
+    "term": "Filled map",
+    "aliases": [],
+    "definition": "A data visualization that colors areas on a map based on measurements or dimensions",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "gantt-chart",
+    "term": "Gantt chart",
+    "aliases": [],
+    "definition": "A data visualization that displays the duration of events or activities on a timeline",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "highlight-table",
+    "term": "Highlight table",
+    "aliases": [],
+    "definition": "A data visualization that uses conditional formatting and color on a table",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "packed-bubble-chart",
+    "term": "Packed bubble chart",
+    "aliases": [],
+    "definition": "A data visualization that displays data in clustered circles",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "symbol-map",
+    "term": "Symbol map",
+    "aliases": [],
+    "definition": "A data visualization that displays a mark over a given longitude and latitude",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/07-choosing-tableau-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "diverging-color-palette",
+    "term": "Diverging color palette",
+    "aliases": [],
+    "definition": "A color theme that displays two ranges of data values using two different hues, with color intensity representing the magnitude of the values",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/08-color-and-misleading-visualizations",
+    "confusableWith": [],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "data-blending",
+    "term": "Data blending",
+    "aliases": [],
+    "definition": "A Tableau method that combines data from multiple data sources",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/09-linking-datasets-in-tableau",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "tooling",
+      "databases"
+    ]
+  },
+  {
+    "id": "data-storytelling",
+    "term": "Data storytelling",
+    "aliases": [],
+    "definition": "Communicating the meaning of a dataset with visuals and a narrative that are customized for an audience",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/10-crafting-data-stories",
+    "confusableWith": [
+      "story"
+    ],
+    "topics": [
+      "visualization",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "engagement",
+    "term": "Engagement",
+    "aliases": [],
+    "definition": "Capturing and holding someone’s interest and attention during a data presentation",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/10-crafting-data-stories",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "spotlighting",
+    "term": "Spotlighting",
+    "aliases": [
+      "Spotlightling"
+    ],
+    "definition": "Scanning through data to quickly identify the most important insights",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/10-crafting-data-stories",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "story",
+    "term": "Story",
+    "aliases": [
+      "narrative"
+    ],
+    "definition": "The narrative of a data presentation that makes it meaningful and interesting",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/10-crafting-data-stories",
+    "confusableWith": [
+      "data-storytelling"
+    ],
+    "topics": [
+      "visualization",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "live-data",
+    "term": "Live data",
+    "aliases": [],
+    "definition": "Data that is automatically updated",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/11-tableau-dashboards",
+    "confusableWith": [
+      "static-data"
+    ],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "static-data",
+    "term": "Static data",
+    "aliases": [],
+    "definition": "Data that doesn’t change once it has been recorded.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/11-tableau-dashboards",
+    "confusableWith": [
+      "live-data"
+    ],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "dashboard-filter",
+    "term": "Dashboard filter",
+    "aliases": [],
+    "definition": "A tool for showing only the data that meets a specific criteria while hiding the rest.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/11-tableau-dashboards",
+    "confusableWith": [
+      "filtering"
+    ],
+    "topics": [
+      "visualization",
+      "tooling"
+    ]
+  },
+  {
+    "id": "framework",
+    "term": "Framework",
+    "aliases": [],
+    "definition": "The context a presentation needs to create logical connections that tie back to the business task and metrics.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/13-presenting-with-a-framework",
+    "confusableWith": [],
+    "topics": [
+      "visualization",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "mark",
+    "term": "Mark",
+    "aliases": [],
+    "definition": "A visual object in a data visualization such as a point, line, or shape.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/05-design-thinking-and-accessibility",
+    "confusableWith": [
+      "channel"
+    ],
+    "topics": [
+      "visualization"
+    ]
+  },
+  {
+    "id": "channel",
+    "term": "Channel",
+    "aliases": [],
+    "definition": "A visual aspect or variable that represents characteristics of the data in a visualization.",
+    "courseId": "06-share-data",
+    "lessonId": "06-share-data/05-design-thinking-and-accessibility",
+    "confusableWith": [
+      "mark"
+    ],
+    "topics": [
+      "visualization"
+    ]
+  }
+]

@@ -49,6 +49,18 @@ A team of Harvard data scientists building a mobile platform to track cardiovasc
 
 The structural lesson: fairness was designed in at the start. None of those three are things you can retrofit onto a finished analysis.
 
+## Quick check for bias
+
+Start with three questions to spot sampling and selection bias before you act on a result:
+
+1. **Who or what was included vs. excluded?** Check coverage — does the dataset actually represent the population the conclusion is about?
+2. **Was selection random and representative, or convenience/self-selected?** Random, representative sampling supports generalization; convenience or self-selection does not.
+3. **Are we claiming more than the data supports?** Watch for overgeneralizing and for mistaking correlation for causation.
+
+In practice: self-selected participants skew toward enthusiasm, tests limited to a single condition miss broader contexts, and convenience sampling near one location overstates nearby preferences — each fails a different question above.
+
+These three catch sampling and generalization, but they are not exhaustive. Fairness also means checking surrounding context and confounders, whether measurement itself introduces observer bias (prefer [self-reported data](/glossary#self-reporting) where feasible), whether you considered all available data or only what confirms expectations, and whether coverage is fair across groups and time — including [oversampling](/glossary#oversampling) underrepresented groups and reviewing the full pipeline end to end, as in the five best practices above.
+
 ## Data ethics
 
 [Data ethics](/glossary#data-ethics) is the good and right way of using data. It asks more than "did we avoid harm":

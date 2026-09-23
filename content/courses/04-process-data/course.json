@@ -4,7 +4,23 @@
   "title": "Process Data from Dirty to Clean",
   "shortTitle": "Process Data",
   "summary": "Data integrity and cleaning: finding and fixing dirty data in spreadsheets and SQL, then verifying and documenting the result.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["data-quality", "spreadsheets", "sql"]
+  "status": "authored",
+  "lessonOrder": [
+    "04-process-data/01-data-integrity-and-its-risks",
+    "04-process-data/02-data-constraints-and-validity",
+    "04-process-data/03-aligning-data-with-business-objectives",
+    "04-process-data/04-insufficient-data-and-proxy-data",
+    "04-process-data/05-sample-size-and-random-sampling",
+    "04-process-data/06-statistical-power-and-margin-of-error",
+    "04-process-data/07-dirty-data-and-clean-data",
+    "04-process-data/08-cleaning-data-in-spreadsheets",
+    "04-process-data/09-merging-data-from-multiple-sources",
+    "04-process-data/10-data-cleaning-pitfalls-and-your-approach",
+    "04-process-data/11-sql-for-cleaning-large-datasets",
+    "04-process-data/12-cleaning-string-variables-in-sql",
+    "04-process-data/13-transforming-data-with-sql-functions",
+    "04-process-data/14-verifying-cleaning-results",
+    "04-process-data/15-documenting-and-reporting-the-cleaning-process"
+  ],
+  "topics": ["data-quality", "spreadsheets", "sql", "statistics", "data-types"]
 }

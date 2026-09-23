@@ -4,7 +4,28 @@
   "title": "Share Data Through the Art of Visualization",
   "shortTitle": "Share Data",
   "summary": "Turning results into something an audience can act on: visualization design principles, Tableau, dashboards, and data storytelling.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["visualization", "stakeholders"]
+  "status": "authored",
+  "lessonOrder": [
+    "06-share-data/01-why-data-visualization-matters",
+    "06-share-data/02-types-of-data-visualizations",
+    "06-share-data/03-choosing-the-right-visualization",
+    "06-share-data/04-principles-of-design",
+    "06-share-data/05-design-thinking-and-accessibility",
+    "06-share-data/06-getting-started-with-tableau",
+    "06-share-data/07-choosing-tableau-visualizations",
+    "06-share-data/08-color-and-misleading-visualizations",
+    "06-share-data/09-linking-datasets-in-tableau",
+    "06-share-data/10-crafting-data-stories",
+    "06-share-data/11-tableau-dashboards",
+    "06-share-data/12-sharing-your-data-story",
+    "06-share-data/13-presenting-with-a-framework",
+    "06-share-data/14-presentation-skills-and-practices",
+    "06-share-data/15-caveats-limitations-and-qa"
+  ],
+  "topics": [
+    "visualization",
+    "stakeholders",
+    "tooling",
+    "career"
+  ]
 }

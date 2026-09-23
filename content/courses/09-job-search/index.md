@@ -1,0 +1,5 @@
+> **⚠ Unverified draft.** "Accelerate Your Job Search with AI" has no verbatim source locally — these lessons were reconstructed from personal course notes (themselves flagged "written from lesson titles, likely wrong") plus the public syllabus. The career and AI-tool facts are generally true; the specific course framing, examples, and emphasis are **unconfirmed**. Every lesson carries the same warning and `status: draft`. Re-verify against the logged-in course before treating this as authoritative.
+
+The job-search companion to the capstone: mine past experience for transferable skills with Gemini and Career Dreamer, turn the search into an explicit plan — resume tailoring, cover letters, a professional online presence — and keep the volume of applications under control with an AI-built tracker and drafted networking outreach.
+
+The final stretch is interview-shaped: STAR-structured answers to behavioral questions, a pitch built with Gemini, practice runs against Gemini Live and Notebook, and the post-interview tail — questions to ask, offer conversations, and the thank-you note.

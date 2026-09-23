@@ -1,0 +1,157 @@
+[
+  {
+    "id": "transferable-skills",
+    "term": "Transferable skills",
+    "aliases": [],
+    "definition": "Skills developed in one job or context that apply to another, such as communication, problem-solving, attention to detail, or organizing information, that move with a person across roles rather than being tied to a single tool or employer.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/01-transferable-skills-with-ai",
+    "confusableWith": [
+      "analytical-skills"
+    ],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "career-identity-statement",
+    "term": "Career identity statement",
+    "aliases": [
+      "career identity"
+    ],
+    "definition": "A concise sentence or short paragraph that states who you are professionally, the value you bring, and the direction you are headed, used to anchor resumes, profiles, and networking conversations and to give a coherent answer to what you do.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/01-transferable-skills-with-ai",
+    "confusableWith": [
+      "elevator-pitch"
+    ],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "career-dreamer",
+    "term": "Career Dreamer",
+    "aliases": [],
+    "definition": "An experimental Google AI tool that helps explore career possibilities by mapping past experience and skills to related roles and suggesting paths to learn more about.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/01-transferable-skills-with-ai",
+    "confusableWith": [],
+    "topics": [
+      "career",
+      "tooling"
+    ]
+  },
+  {
+    "id": "job-search-plan",
+    "term": "Job search plan",
+    "aliases": [],
+    "definition": "An explicit, time-bound plan for a job search that lists target roles, search channels, weekly actions, and review habits so the search is systematic and revisable rather than ad hoc.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/02-plan-and-apply-with-ai",
+    "confusableWith": [],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "resume",
+    "term": "Resume",
+    "aliases": [
+      "CV"
+    ],
+    "definition": "A concise, tailored document that summarizes relevant experience, skills, and accomplishments for a specific role, designed to be scanned quickly by a recruiter or applicant tracking system and to link to evidence such as a portfolio.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/02-plan-and-apply-with-ai",
+    "confusableWith": [
+      "cover-letter",
+      "portfolio"
+    ],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "cover-letter",
+    "term": "Cover letter",
+    "aliases": [],
+    "definition": "A brief, personalized letter that accompanies a resume and explains why your background fits a specific role and organization, highlighting one or two relevant accomplishments and showing interest in that employer.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/02-plan-and-apply-with-ai",
+    "confusableWith": [
+      "resume"
+    ],
+    "topics": [
+      "career"
+    ]
+  },
+  {
+    "id": "professional-brand",
+    "term": "Professional brand",
+    "aliases": [
+      "personal brand"
+    ],
+    "definition": "The consistent public signal of who you help, what you do well, and how you work, expressed through profiles, portfolio, and contributions so others can quickly understand your value and what to expect from you.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/03-professional-online-presence",
+    "confusableWith": [
+      "online-portfolio"
+    ],
+    "topics": [
+      "career",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "job-search-tracker",
+    "term": "Job search tracker",
+    "aliases": [
+      "application tracker"
+    ],
+    "definition": "A structured sheet or database for logging each application, contact, date, status, and next step, used to follow up on time, compare channels, and keep the search organized as volume grows.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/04-manage-applications-with-ai",
+    "confusableWith": [],
+    "topics": [
+      "career",
+      "tooling"
+    ]
+  },
+  {
+    "id": "professional-networking",
+    "term": "Professional networking",
+    "aliases": [
+      "networking"
+    ],
+    "definition": "The ongoing practice of building and maintaining mutually helpful professional relationships through outreach, information exchange, and shared interests, not only asking for jobs but contributing and staying in touch over time.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/04-manage-applications-with-ai",
+    "confusableWith": [],
+    "topics": [
+      "career",
+      "stakeholders"
+    ]
+  },
+  {
+    "id": "star-method",
+    "term": "STAR method",
+    "aliases": [
+      "STAR"
+    ],
+    "definition": "A structure for answering behavioral interview questions by describing the Situation, Task, Action, and Result in order so the listener can follow what was at stake, what you did, and what changed as a result.",
+    "courseId": "09-job-search",
+    "lessonId": "09-job-search/05-interview-prep-with-ai",
+    "confusableWith": [
+      "elevator-pitch"
+    ],
+    "topics": [
+      "career"
+    ],
+    "sequence": [
+      "Situation",
+      "Task",
+      "Action",
+      "Result"
+    ]
+  }
+]

@@ -378,7 +378,7 @@
     "definition": "A spreadsheet function that counts the number of cells in a range that meet a specific criteria.",
     "courseId": "02-ask-questions",
     "lessonId": "02-ask-questions/09-spreadsheet-functions",
-    "confusableWith": ["countif-function"],
+    "confusableWith": ["countif-function", "counta-function"],
     "topics": ["spreadsheets"]
   },
   {

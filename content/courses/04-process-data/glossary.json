@@ -1,0 +1,715 @@
+[
+  {
+    "id": "data-integrity",
+    "term": "Data integrity",
+    "aliases": [],
+    "definition": "The accuracy, completeness, consistency, and trustworthiness of data throughout its lifecycle.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "accuracy",
+    "term": "Accuracy",
+    "aliases": [],
+    "definition": "The degree to which data conforms to the actual entity being measured or described.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": ["completeness", "consistency"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "completeness",
+    "term": "Completeness",
+    "aliases": [],
+    "definition": "The degree to which data contains all desired components or measures.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": ["accuracy", "consistency"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "consistency",
+    "term": "Consistency",
+    "aliases": [],
+    "definition": "The degree to which data is repeatable from different points of entry or collection.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": ["accuracy", "completeness"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-replication",
+    "term": "Data replication",
+    "aliases": [],
+    "definition": "The process of storing data in multiple locations. Replicating data at different times or places risks the copies falling out of sync with each other.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-transfer",
+    "term": "Data transfer",
+    "aliases": [],
+    "definition": "The process of copying data from a storage device to memory, or from one computer to another. An interrupted transfer can leave an incomplete dataset.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-manipulation",
+    "term": "Data manipulation",
+    "aliases": [],
+    "definition": "The process of changing data to make it more organized and easier to read. Meant to make analysis more efficient, but an error during the process can compromise that efficiency.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/01-data-integrity-and-its-risks",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-constraint",
+    "term": "Data constraint",
+    "aliases": [],
+    "definition": "A criterion that determines whether a piece of data is clean and valid.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-range",
+    "term": "Data range",
+    "aliases": [],
+    "definition": "A data constraint requiring values to fall between predefined maximum and minimum values.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "mandatory-field",
+    "term": "Mandatory",
+    "aliases": [],
+    "definition": "A data constraint meaning a value can't be left blank or empty.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "unique-constraint",
+    "term": "Unique",
+    "aliases": [],
+    "definition": "A data constraint meaning a value can't have a duplicate.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": ["distinct-keyword"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "regex-pattern",
+    "term": "Regular expression (regex)",
+    "aliases": ["RegEx"],
+    "definition": "A data constraint requiring values to match a prescribed pattern, such as a phone number matching ###-###-####.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "cross-field-validation",
+    "term": "Cross-field validation",
+    "aliases": [],
+    "definition": "A data constraint requiring that certain conditions across multiple fields be satisfied, such as percentage values across fields adding up to 100%.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": ["data-validation"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "set-membership-constraint",
+    "term": "Set-membership",
+    "aliases": [],
+    "definition": "A database-only data constraint requiring a column's values to come from a defined set of discrete values, such as a status column only accepting Yes, No, or Not Applicable.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/02-data-constraints-and-validity",
+    "confusableWith": ["foreign-key"],
+    "topics": ["data-quality", "databases"]
+  },
+  {
+    "id": "proxy-data",
+    "term": "Proxy data",
+    "aliases": [],
+    "definition": "Data used as a substitute for the data you actually need, when that data isn't available or there isn't enough of it — for example, using sales data for a similar existing product to estimate demand for a brand-new one.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/04-insufficient-data-and-proxy-data",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "random-sampling",
+    "term": "Random sampling",
+    "aliases": [],
+    "definition": "A way of selecting a sample from a population so that every possible type of the sample has an equal chance of being chosen.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/05-sample-size-and-random-sampling",
+    "confusableWith": [],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "confidence-level",
+    "term": "Confidence level",
+    "aliases": [],
+    "definition": "The probability that a sample size accurately reflects the greater population. A 95% confidence level means that running the same survey 100 times would produce similar results 95 of those times.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/05-sample-size-and-random-sampling",
+    "confusableWith": ["confidence-interval", "margin-of-error"],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "confidence-interval",
+    "term": "Confidence interval",
+    "aliases": [],
+    "definition": "The range of possible values the population's result would fall within at a study's confidence level — the sample result plus or minus the margin of error.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/05-sample-size-and-random-sampling",
+    "confusableWith": ["confidence-level", "margin-of-error"],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "estimated-response-rate",
+    "term": "Estimated response rate",
+    "aliases": [],
+    "definition": "The percentage of people expected to complete a survey out of everyone who received it.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/05-sample-size-and-random-sampling",
+    "confusableWith": [],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "hypothesis-testing",
+    "term": "Hypothesis testing",
+    "aliases": [],
+    "definition": "A process to determine if a survey or experiment has meaningful results.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/06-statistical-power-and-margin-of-error",
+    "confusableWith": [],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "statistical-power",
+    "term": "Statistical power",
+    "aliases": [],
+    "definition": "The probability of getting meaningful results from a test, usually shown as a value out of one. A statistical power of at least 0.8 is typically considered the minimum for statistical significance.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/06-statistical-power-and-margin-of-error",
+    "confusableWith": ["statistical-significance"],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "statistical-significance",
+    "term": "Statistical significance",
+    "aliases": [],
+    "definition": "A determination of whether a result could be due to random chance or not — the greater the significance, the less due to chance.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/06-statistical-power-and-margin-of-error",
+    "confusableWith": ["statistical-power"],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "margin-of-error",
+    "term": "Margin of error",
+    "aliases": [],
+    "definition": "The maximum amount that a sample's results are expected to differ from those of the actual population.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/06-statistical-power-and-margin-of-error",
+    "confusableWith": ["confidence-level", "confidence-interval"],
+    "topics": ["statistics"]
+  },
+  {
+    "id": "dirty-data",
+    "term": "Dirty data",
+    "aliases": [],
+    "definition": "Data that is incomplete, incorrect, or irrelevant to the problem being solved.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["clean-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "clean-data",
+    "term": "Clean data",
+    "aliases": [],
+    "definition": "Data that is complete, correct, and relevant to the problem being solved.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["dirty-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "duplicate-data",
+    "term": "Duplicate data",
+    "aliases": [],
+    "definition": "Any data record that shows up more than once, often caused by manual data entry, batch data imports, or data migration.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["outdated-data", "incomplete-data", "incorrect-data", "inconsistent-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "outdated-data",
+    "term": "Outdated data",
+    "aliases": [],
+    "definition": "Data that has been superseded by newer and more accurate information.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["duplicate-data", "incomplete-data", "incorrect-data", "inconsistent-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "incomplete-data",
+    "term": "Incomplete data",
+    "aliases": [],
+    "definition": "Data that is missing important fields.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["duplicate-data", "outdated-data", "incorrect-data", "inconsistent-data", "null-value"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "incorrect-data",
+    "term": "Incorrect/inaccurate data",
+    "aliases": [],
+    "definition": "Data that is complete but inaccurate.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["duplicate-data", "outdated-data", "incomplete-data", "inconsistent-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "inconsistent-data",
+    "term": "Inconsistent data",
+    "aliases": [],
+    "definition": "Data that uses different formats to represent the same thing.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["duplicate-data", "outdated-data", "incomplete-data", "incorrect-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "null-value",
+    "term": "Null",
+    "aliases": [],
+    "definition": "An indication that a value does not exist in a dataset — not the same as a zero, which is itself a value.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/07-dirty-data-and-clean-data",
+    "confusableWith": ["incomplete-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "conditional-formatting",
+    "term": "Conditional formatting",
+    "aliases": [],
+    "definition": "A spreadsheet tool that changes how cells appear when values meet specific conditions, such as highlighting blank cells.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": [],
+    "topics": ["spreadsheets", "data-quality"]
+  },
+  {
+    "id": "remove-duplicates",
+    "term": "Remove duplicates",
+    "aliases": [],
+    "definition": "A spreadsheet tool that automatically searches for and eliminates duplicate entries from a spreadsheet.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": [],
+    "topics": ["spreadsheets", "data-quality"]
+  },
+  {
+    "id": "data-validation",
+    "term": "Data validation",
+    "aliases": [],
+    "definition": "A tool for checking the accuracy and quality of data before adding or importing it.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["cross-field-validation", "verification"],
+    "topics": ["spreadsheets", "data-quality"]
+  },
+  {
+    "id": "field-length",
+    "term": "Field length",
+    "aliases": [],
+    "definition": "A tool for determining how many characters can be keyed into a spreadsheet field.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["length-function"],
+    "topics": ["spreadsheets", "data-quality"]
+  },
+  {
+    "id": "length-function",
+    "term": "LEN / LENGTH",
+    "aliases": ["LEN", "LENGTH"],
+    "definition": "A function that returns the length of a text string by counting the number of characters it contains — LEN in most spreadsheets, LENGTH in most SQL dialects, doing the same thing either way.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["field-length"],
+    "topics": ["spreadsheets", "sql"]
+  },
+  {
+    "id": "left-function",
+    "term": "LEFT",
+    "aliases": [],
+    "definition": "A function that returns a set number of characters from the left side of a text string.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["right-function", "mid-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "right-function",
+    "term": "RIGHT",
+    "aliases": [],
+    "definition": "A function that returns a set number of characters from the right side of a text string.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["left-function", "mid-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "mid-function",
+    "term": "MID",
+    "aliases": [],
+    "definition": "A function that returns a segment from the middle of a text string.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["left-function", "right-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "concatenate-function",
+    "term": "CONCATENATE",
+    "aliases": [],
+    "definition": "A spreadsheet function that joins together two or more text strings.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": ["concat-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "trim-function",
+    "term": "TRIM",
+    "aliases": [],
+    "definition": "A function that removes leading and trailing spaces from a value; the spreadsheet version also collapses repeated spaces in between, while SQL's only strips the ends.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": [],
+    "topics": ["spreadsheets", "sql"]
+  },
+  {
+    "id": "split-function",
+    "term": "SPLIT",
+    "aliases": [],
+    "definition": "A spreadsheet function that divides text around a specified character and puts each fragment into a new, separate cell.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/08-cleaning-data-in-spreadsheets",
+    "confusableWith": [],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "data-merging",
+    "term": "Data merging",
+    "aliases": [],
+    "definition": "The process of combining two or more datasets into a single dataset.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/09-merging-data-from-multiple-sources",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "compatibility",
+    "term": "Compatibility",
+    "aliases": [],
+    "definition": "How well two or more datasets are able to work together.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/09-merging-data-from-multiple-sources",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "merger",
+    "term": "Merger",
+    "aliases": [],
+    "definition": "An agreement that unites two organizations into a single new one.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/09-merging-data-from-multiple-sources",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-mapping",
+    "term": "Data mapping",
+    "aliases": [],
+    "definition": "The process of matching fields from one data source to another.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/09-merging-data-from-multiple-sources",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "workflow-automation",
+    "term": "Workflow automation",
+    "aliases": [],
+    "definition": "The process of automating parts of a workflow, such as a script that flags missing values, to save time and increase productivity.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/10-data-cleaning-pitfalls-and-your-approach",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "distinct-keyword",
+    "term": "DISTINCT",
+    "aliases": [],
+    "definition": "A keyword added to a SQL SELECT statement to retrieve only non-duplicate entries.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": ["unique-constraint"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "order-by-clause",
+    "term": "ORDER BY",
+    "aliases": [],
+    "definition": "A SQL clause that sorts query results by a specified column, ascending by default or descending with DESC.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": [],
+    "topics": ["sql"]
+  },
+  {
+    "id": "limit-clause",
+    "term": "LIMIT",
+    "aliases": [],
+    "definition": "A SQL clause that caps the number of rows a query returns.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": [],
+    "topics": ["sql"]
+  },
+  {
+    "id": "insert-into-statement",
+    "term": "INSERT INTO",
+    "aliases": [],
+    "definition": "A SQL statement that adds new data into a database table.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": ["update-statement"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "update-statement",
+    "term": "UPDATE",
+    "aliases": [],
+    "definition": "A SQL statement that changes existing data in a database table.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": ["insert-into-statement"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "create-table-statement",
+    "term": "CREATE TABLE IF NOT EXISTS",
+    "aliases": [],
+    "definition": "A SQL statement that creates a new table in a database if one by that name doesn't already exist. Running a query doesn't itself save a table — the result has to be downloaded or saved into a new table separately.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": ["drop-table-statement"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "drop-table-statement",
+    "term": "DROP TABLE IF EXISTS",
+    "aliases": [],
+    "definition": "A SQL statement that deletes a table from a database if it exists — good practice for cleaning up tables you created yourself so unused tables don't clutter the database.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/11-sql-for-cleaning-large-datasets",
+    "confusableWith": ["create-table-statement"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "substring-function",
+    "term": "SUBSTRING",
+    "aliases": [],
+    "definition": "A SQL function that extracts a portion of a text string, starting at a specified position for a specified number of characters.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/12-cleaning-string-variables-in-sql",
+    "confusableWith": [],
+    "topics": ["sql"]
+  },
+  {
+    "id": "cast-function",
+    "term": "CAST",
+    "aliases": [],
+    "definition": "A SQL function that converts data from one data type to another.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/13-transforming-data-with-sql-functions",
+    "confusableWith": ["typecasting"],
+    "topics": ["sql", "data-types"]
+  },
+  {
+    "id": "typecasting",
+    "term": "Typecasting",
+    "aliases": [],
+    "definition": "Converting data from one data type to another.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/13-transforming-data-with-sql-functions",
+    "confusableWith": ["cast-function"],
+    "topics": ["sql", "data-types"]
+  },
+  {
+    "id": "concat-function",
+    "term": "CONCAT",
+    "aliases": [],
+    "definition": "A SQL function that adds strings together to create new text strings that can be used as unique keys, such as combining a product code and a color.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/13-transforming-data-with-sql-functions",
+    "confusableWith": ["concatenate-function"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "coalesce-function",
+    "term": "COALESCE",
+    "aliases": [],
+    "definition": "A SQL function that returns non-null values from a list of columns, such as showing a product's name when it exists and falling back to its product code when the name is null.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/13-transforming-data-with-sql-functions",
+    "confusableWith": [],
+    "topics": ["sql"]
+  },
+  {
+    "id": "float-data-type",
+    "term": "Float",
+    "aliases": [],
+    "definition": "A number that contains a decimal.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/13-transforming-data-with-sql-functions",
+    "confusableWith": [],
+    "topics": ["data-types", "sql"]
+  },
+  {
+    "id": "verification",
+    "term": "Verification",
+    "aliases": [],
+    "definition": "A process to confirm that a data-cleaning effort was well executed and the resulting data is accurate and reliable.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/14-verifying-cleaning-results",
+    "confusableWith": ["data-validation"],
+    "topics": ["data-quality"],
+    "sequence": [
+      "Go back to the original, unclean dataset and compare it against the cleaned data to spot common problems.",
+      "Manually clean up anything that remains, using tools like conditional formatting, filters, or Find and replace.",
+      "Step back and confirm the business problem, the project's goal, and that the data can actually solve it."
+    ]
+  },
+  {
+    "id": "case-statement",
+    "term": "CASE",
+    "aliases": [],
+    "definition": "A SQL statement that steps through one or more conditions and returns a value as soon as a condition is met — useful for correcting a misspelling in a new column without altering the underlying table.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/14-verifying-cleaning-results",
+    "confusableWith": ["find-and-replace"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "find-and-replace",
+    "term": "Find and replace",
+    "aliases": [],
+    "definition": "A tool that finds a specified search term in a spreadsheet and replaces it with something else.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/14-verifying-cleaning-results",
+    "confusableWith": ["case-statement"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "counta-function",
+    "term": "COUNTA",
+    "aliases": [],
+    "definition": "A spreadsheet function that counts the total number of values within a specified range, including non-numeric values (unlike COUNT, which counts only numerical values).",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/14-verifying-cleaning-results",
+    "confusableWith": ["count-function"],
+    "topics": ["spreadsheets"]
+  },
+  {
+    "id": "data-cleaning-verification-checklist",
+    "term": "Data-cleaning verification checklist",
+    "aliases": [],
+    "definition": "A checklist of common problems to run through during data-cleaning verification: sources of errors, null data, misspelled words, mistyped numbers, extra spaces and characters, duplicates, mismatched data types, inconsistent strings, inconsistent date formats, truncated data, and business logic.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/14-verifying-cleaning-results",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "documentation",
+    "term": "Documentation",
+    "aliases": [],
+    "definition": "The process of tracking the changes, additions, deletions, and errors involved in a data-cleaning effort.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/15-documenting-and-reporting-the-cleaning-process",
+    "confusableWith": ["changelog"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "changelog",
+    "term": "Changelog",
+    "aliases": [],
+    "definition": "A file containing a chronologically ordered list of modifications made to a project, typically recording what changed, a description, the date, who made and approved the change, a version number, and the reason for the change.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/15-documenting-and-reporting-the-cleaning-process",
+    "confusableWith": ["documentation", "version-control-system"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "version-control-system",
+    "term": "Version control system",
+    "aliases": [],
+    "definition": "A system holding the official versions of shared queries or files, so a change can be synced to, reviewed, committed, and reverted if it causes a problem.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/15-documenting-and-reporting-the-cleaning-process",
+    "confusableWith": ["changelog"],
+    "topics": ["data-quality"],
+    "sequence": [
+      "Sync to the most up-to-date version before making a change.",
+      "Make the change.",
+      "Have someone else review the change (a code review).",
+      "Submit the change to the repository (a code commit), documenting what changed and why.",
+      "Everyone else syncs to the newly updated version.",
+      "Revert to a previous version if the change causes a problem."
+    ]
+  },
+  {
+    "id": "code-review",
+    "term": "Code review",
+    "aliases": [],
+    "definition": "Having someone else look over a proposed change to a shared query or file before it's committed, whether done formally or as simply as asking a senior analyst to take a look.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/15-documenting-and-reporting-the-cleaning-process",
+    "confusableWith": ["code-commit"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "code-commit",
+    "term": "Code commit",
+    "aliases": [],
+    "definition": "Submitting an updated version of a query or file to a shared repository in a version control system, typically documented with a comment describing what changed and why.",
+    "courseId": "04-process-data",
+    "lessonId": "04-process-data/15-documenting-and-reporting-the-cleaning-process",
+    "confusableWith": ["code-review"],
+    "topics": ["data-quality"]
+  }
+]

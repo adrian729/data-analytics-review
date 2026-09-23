@@ -4,7 +4,31 @@
   "title": "Analyze Data to Answer Questions",
   "shortTitle": "Analyze Data",
   "summary": "Organizing and formatting data, then analyzing it with spreadsheet functions and SQL to answer the original business question.",
-  "status": "planned",
-  "lessonOrder": [],
-  "topics": ["spreadsheets", "sql", "statistics"]
+  "status": "authored",
+  "lessonOrder": [
+    "05-analyze-data/01-organize-data-for-analysis",
+    "05-analyze-data/02-sorting-and-filtering-in-spreadsheets",
+    "05-analyze-data/03-filtering-and-sorting-data-with-sql",
+    "05-analyze-data/04-formatting-and-converting-data-in-spreadsheets",
+    "05-analyze-data/05-transforming-data-with-sql",
+    "05-analyze-data/06-combining-data-in-spreadsheets",
+    "05-analyze-data/07-manipulating-strings-with-sql",
+    "05-analyze-data/08-getting-unstuck-during-analysis",
+    "05-analyze-data/09-aggregating-data-with-vlookup",
+    "05-analyze-data/10-joining-tables-in-sql",
+    "05-analyze-data/11-working-with-subqueries",
+    "05-analyze-data/12-common-data-calculations",
+    "05-analyze-data/13-conditional-and-composite-functions",
+    "05-analyze-data/14-pivot-tables-for-analysis",
+    "05-analyze-data/15-sql-calculations-and-group-by",
+    "05-analyze-data/16-the-data-validation-process",
+    "05-analyze-data/17-working-with-temporary-tables"
+  ],
+  "topics": [
+    "analytical-thinking",
+    "spreadsheets",
+    "sql",
+    "statistics",
+    "databases"
+  ]
 }

@@ -308,7 +308,7 @@
     "definition": "A characteristic or quality of data used to label a column in a table.",
     "courseId": "01-foundations",
     "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
-    "confusableWith": ["observation"],
+    "confusableWith": ["observation", "field"],
     "topics": ["spreadsheets"]
   },
   {
@@ -318,7 +318,7 @@
     "definition": "The attributes that describe a piece of data contained in a row of a table.",
     "courseId": "01-foundations",
     "lessonId": "01-foundations/07-spreadsheets-and-sql-basics",
-    "confusableWith": ["attribute"],
+    "confusableWith": ["attribute", "record"],
     "topics": ["spreadsheets"]
   },
   {

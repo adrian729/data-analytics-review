@@ -1,0 +1,694 @@
+[
+  {
+    "id": "first-party-data",
+    "term": "First-party data",
+    "aliases": [],
+    "definition": "Data collected by an individual or group using their own resources. Generally the preferred data source, because you know exactly where it came from.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/01-selecting-the-right-data",
+    "confusableWith": ["second-party-data", "third-party-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "second-party-data",
+    "term": "Second-party data",
+    "aliases": [],
+    "definition": "Data collected by a group directly from its own audience, then sold to another party.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/01-selecting-the-right-data",
+    "confusableWith": ["first-party-data", "third-party-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "third-party-data",
+    "term": "Third-party data",
+    "aliases": [],
+    "definition": "Data collected by an outside source that did not collect it directly, often aggregated from a number of other sources. Can be useful but needs extra scrutiny for accuracy, bias, and credibility.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/01-selecting-the-right-data",
+    "confusableWith": ["first-party-data", "second-party-data"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "population",
+    "term": "Population",
+    "aliases": [],
+    "definition": "All possible data values that exist in a given dataset or group — every unit that could be measured, not just the ones actually measured.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/01-selecting-the-right-data",
+    "confusableWith": ["sample"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "sample",
+    "term": "Sample",
+    "aliases": [],
+    "definition": "A part of a population that is representative of the population as a whole, used when collecting data from an entire population is impractical.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/01-selecting-the-right-data",
+    "confusableWith": ["population"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "structured-data",
+    "term": "Structured data",
+    "aliases": [],
+    "definition": "Data organized in a specific format, such as rows and columns, that makes it easy to store, query, and export.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["unstructured-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "unstructured-data",
+    "term": "Unstructured data",
+    "aliases": [],
+    "definition": "Data that isn't organized in any easily identifiable way, such as video, audio, social media content, or open-ended survey responses. Far more common in the world than structured data, and harder to search, manage, and analyze.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["structured-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "primary-data",
+    "term": "Primary data",
+    "aliases": [],
+    "definition": "Data collected first-hand by the researcher using it, such as an interview or survey they conducted themselves.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["secondary-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "secondary-data",
+    "term": "Secondary data",
+    "aliases": [],
+    "definition": "Data gathered by other people or other research, such as a purchased customer dataset or government census data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["primary-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "internal-data",
+    "term": "Internal data",
+    "aliases": [],
+    "definition": "Data that lives inside a company's own systems, such as employee wages tracked by HR or a store's own sales figures.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["external-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "external-data",
+    "term": "External data",
+    "aliases": [],
+    "definition": "Data that lives outside of a company or organization, such as national wage averages or a customer's credit report.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["internal-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "continuous-data",
+    "term": "Continuous data",
+    "aliases": [],
+    "definition": "Data that is measured and can take almost any numeric value, such as height or temperature.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["discrete-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "discrete-data",
+    "term": "Discrete data",
+    "aliases": [],
+    "definition": "Data that is counted and has a limited number of possible values, such as the number of daily hospital visits or tickets sold.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["continuous-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "nominal-data",
+    "term": "Nominal data",
+    "aliases": [],
+    "definition": "A type of qualitative data whose categories have no set order, such as new customer, returning customer, or regular customer.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["ordinal-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "ordinal-data",
+    "term": "Ordinal data",
+    "aliases": [],
+    "definition": "A type of qualitative data with a set order or scale, such as movie star ratings or income brackets.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": ["nominal-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "data-modeling",
+    "term": "Data modeling",
+    "aliases": ["data model"],
+    "definition": "The process of creating diagrams that visually represent how data is organized and structured, at a conceptual, logical, or physical level of detail.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/02-data-formats-and-structure",
+    "confusableWith": [],
+    "sequence": ["Conceptual — high-level structure, no technical detail", "Logical — technical relationships, attributes, and entities", "Physical — actual table names, column names, and data types"],
+    "topics": ["data-types", "databases"]
+  },
+  {
+    "id": "data-type",
+    "term": "Data type",
+    "aliases": [],
+    "definition": "A specific kind of data attribute that tells what kind of value the data is — a number, a text/string, or a Boolean, in a typical spreadsheet.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/03-data-types-fields-and-values",
+    "confusableWith": ["value"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "record",
+    "term": "Record",
+    "aliases": ["row"],
+    "definition": "One complete entry in a data table — the database and query-language term for what a spreadsheet calls a row.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/03-data-types-fields-and-values",
+    "confusableWith": ["field", "observation"],
+    "topics": ["data-types", "databases"]
+  },
+  {
+    "id": "field",
+    "term": "Field",
+    "aliases": ["column"],
+    "definition": "One characteristic shared across every record in a table — the database and query-language term for what a spreadsheet calls a column. Every field holds a single data type.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/03-data-types-fields-and-values",
+    "confusableWith": ["record", "attribute"],
+    "topics": ["data-types", "databases"]
+  },
+  {
+    "id": "value",
+    "term": "Value",
+    "aliases": [],
+    "definition": "The specific piece of data held in one field of one record — a single cell's worth of data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/03-data-types-fields-and-values",
+    "confusableWith": ["data-type"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "boolean-logic",
+    "term": "Boolean logic",
+    "aliases": ["AND OR NOT"],
+    "definition": "A way of combining true/false conditions into a single filter using the operators AND (all conditions true), OR (at least one true), and NOT (excludes a condition).",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/03-data-types-fields-and-values",
+    "confusableWith": [],
+    "topics": ["data-types", "databases"]
+  },
+  {
+    "id": "wide-data",
+    "term": "Wide data",
+    "aliases": [],
+    "definition": "A data format where each subject has a single row with multiple columns holding the values of its various attributes or time points. Easy to compare across columns.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/04-wide-and-long-data",
+    "confusableWith": ["long-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "long-data",
+    "term": "Long data",
+    "aliases": [],
+    "definition": "A data format where each row is one time point for one subject, so a subject spans multiple rows. Stays compact as more variables are added.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/04-wide-and-long-data",
+    "confusableWith": ["wide-data"],
+    "topics": ["data-types"]
+  },
+  {
+    "id": "data-transformation",
+    "term": "Data transformation",
+    "aliases": [],
+    "definition": "The process of changing a dataset's format, structure, or values — adding, deleting, renaming, joining, or converting data to make it easier to use, merge, or move between systems.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/04-wide-and-long-data",
+    "confusableWith": [],
+    "topics": ["data-types", "data-quality"]
+  },
+  {
+    "id": "bias",
+    "term": "Bias",
+    "aliases": [],
+    "definition": "A conscious or subconscious preference in favor of or against a person, group of people, or thing.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": ["data-bias"],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "data-bias",
+    "term": "Data bias",
+    "aliases": [],
+    "definition": "When a preference in favor of or against a person, group of people, or thing systematically skews data analysis results in a certain direction.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": ["bias"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "sampling-bias",
+    "term": "Sampling bias",
+    "aliases": [],
+    "definition": "Overrepresenting or underrepresenting certain members of a population as a result of working with a sample that is not representative of the population as a whole.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": ["unbiased-sampling"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "confirmation-bias",
+    "term": "Confirmation bias",
+    "aliases": [],
+    "definition": "The tendency to search for or interpret information in a way that confirms pre-existing beliefs.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": ["interpretation-bias"],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "observer-bias",
+    "term": "Observer bias",
+    "aliases": ["experimenter bias", "research bias"],
+    "definition": "The tendency for different people to observe the same thing differently.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "interpretation-bias",
+    "term": "Interpretation bias",
+    "aliases": [],
+    "definition": "The tendency to interpret an ambiguous situation in a positive or negative way based on expectation rather than evidence.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": ["confirmation-bias"],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "unbiased-sampling",
+    "term": "Unbiased sampling",
+    "aliases": [],
+    "definition": "When the sample of the population being measured is representative of the population as a whole, typically achieved through random sampling.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/05-bias-in-data",
+    "confusableWith": ["sampling-bias"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "rocc-framework",
+    "term": "ROCCC framework",
+    "aliases": ["ROCCC"],
+    "definition": "A framework for judging whether a data source is trustworthy: reliable, original, comprehensive, current, and cited.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/06-data-credibility-and-sourcing",
+    "confusableWith": [],
+    "sequence": ["Reliable", "Original", "Comprehensive", "Current", "Cited"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "good-data-source",
+    "term": "Good data source",
+    "aliases": [],
+    "definition": "A data source that is reliable, original, comprehensive, current, and cited (ROCCC).",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/06-data-credibility-and-sourcing",
+    "confusableWith": ["bad-data-source"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "bad-data-source",
+    "term": "Bad data source",
+    "aliases": [],
+    "definition": "A data source that is not reliable, original, comprehensive, current, or cited (ROCCC) — and may contain human error or flat-out incorrect information.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/06-data-credibility-and-sourcing",
+    "confusableWith": ["good-data-source"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "ownership",
+    "term": "Ownership",
+    "aliases": [],
+    "definition": "The aspect of data ethics establishing that individuals own the raw data they provide, and retain primary control over how it's used and shared.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "transaction-transparency",
+    "term": "Transaction transparency",
+    "aliases": [],
+    "definition": "The aspect of data ethics presuming that all data-processing activities and algorithms should be explainable and understood by the individual who provides the data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "consent",
+    "term": "Consent",
+    "aliases": [],
+    "definition": "The aspect of data ethics presuming an individual's right to know how and why their personal data will be used before agreeing to provide it.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "currency",
+    "term": "Currency",
+    "aliases": [],
+    "definition": "The aspect of data ethics presuming individuals should be aware of financial transactions resulting from the use of their personal data, and the scale of those transactions.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "data-privacy",
+    "term": "Data privacy",
+    "aliases": ["information privacy", "data protection"],
+    "definition": "Preserving a data subject's information and activity any time a data transaction occurs, including their legal rights to access, inspect, correct, and consent to the use of their data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": ["data-security"],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "gdpr",
+    "term": "General Data Protection Regulation (GDPR)",
+    "aliases": ["GDPR"],
+    "definition": "A policy-making body in the European Union created to help protect people and their data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "data-anonymization",
+    "term": "Data anonymization",
+    "aliases": [],
+    "definition": "The process of protecting people's private or sensitive data by eliminating identifying information — typically by blanking, hashing, or masking it.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": ["personally-identifiable-information", "de-identification"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "personally-identifiable-information",
+    "term": "Personally identifiable information (PII)",
+    "aliases": ["PII"],
+    "definition": "Information that can be used, alone or combined with other data, to identify a specific person — names, phone numbers, addresses, social security numbers, and similar data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": ["data-anonymization"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "de-identification",
+    "term": "De-identification",
+    "aliases": [],
+    "definition": "A process used to wipe data clean of all personally identifying information, common in sensitive industries like healthcare and finance.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/07-data-ethics-and-privacy",
+    "confusableWith": ["data-anonymization"],
+    "topics": ["ethics-fairness", "data-quality"]
+  },
+  {
+    "id": "openness",
+    "term": "Openness",
+    "aliases": [],
+    "definition": "The aspect of data ethics that promotes the free access, usage, and sharing of data.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/08-open-data-and-data-access",
+    "confusableWith": [],
+    "topics": ["ethics-fairness"]
+  },
+  {
+    "id": "data-interoperability",
+    "term": "Data interoperability",
+    "aliases": [],
+    "definition": "The ability of data systems and services to openly connect and share data with each other — a key factor in the successful use of open data among companies and governments.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/08-open-data-and-data-access",
+    "confusableWith": [],
+    "topics": ["ethics-fairness", "databases"]
+  },
+  {
+    "id": "relational-database",
+    "term": "Relational database",
+    "aliases": [],
+    "definition": "A database that contains a series of related tables that can be connected via their relationships — one or more shared fields between tables.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/09-working-with-databases",
+    "confusableWith": ["normalized-database"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "primary-key",
+    "term": "Primary key",
+    "aliases": [],
+    "definition": "An identifier that references a column in which each value is unique — a unique identifier for each record in a table. A table can have only one, and it can never be null or blank.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/09-working-with-databases",
+    "confusableWith": ["foreign-key", "composite-key"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "foreign-key",
+    "term": "Foreign key",
+    "aliases": [],
+    "definition": "A field within a database table that is a primary key in another table, used to connect the two tables. A table can hold multiple foreign keys.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/09-working-with-databases",
+    "confusableWith": ["primary-key", "set-membership-constraint"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "composite-key",
+    "term": "Composite key",
+    "aliases": [],
+    "definition": "A primary key constructed from two or more columns of a table together, used when no single column is unique on its own.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/09-working-with-databases",
+    "confusableWith": ["primary-key"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "normalized-database",
+    "term": "Normalized database",
+    "aliases": ["normalization"],
+    "definition": "A database in which only related data is stored in each table, connected through keys rather than duplicated — applied to eliminate redundancy, increase data integrity, and reduce complexity.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/09-working-with-databases",
+    "confusableWith": ["relational-database", "redundancy"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "redundancy",
+    "term": "Redundancy",
+    "aliases": [],
+    "definition": "When the same piece of data is stored in two or more places.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/09-working-with-databases",
+    "confusableWith": ["normalized-database"],
+    "topics": ["databases", "data-quality"]
+  },
+  {
+    "id": "metadata",
+    "term": "Metadata",
+    "aliases": [],
+    "definition": "Data about data — information that helps identify, interpret, and reuse a piece of data, such as its title, source, creation date, and structure.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": [],
+    "topics": ["databases", "data-quality"]
+  },
+  {
+    "id": "descriptive-metadata",
+    "term": "Descriptive metadata",
+    "aliases": [],
+    "definition": "Metadata that describes a piece of data and can be used to identify it at a later point in time, such as a title, tags, or categories.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": ["structural-metadata", "administrative-metadata"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "structural-metadata",
+    "term": "Structural metadata",
+    "aliases": [],
+    "definition": "Metadata that indicates how a piece of data is organized and whether it is part of one or more than one data collection.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": ["descriptive-metadata", "administrative-metadata"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "administrative-metadata",
+    "term": "Administrative metadata",
+    "aliases": [],
+    "definition": "Metadata that indicates the technical source of a digital asset, such as who created or last modified it and when.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": ["descriptive-metadata", "structural-metadata"],
+    "topics": ["databases"]
+  },
+  {
+    "id": "data-dictionary",
+    "term": "Data dictionary",
+    "aliases": [],
+    "definition": "A tabular inventory of a dataset's tables and their attributes/columns, including data types, sometimes supplemented with constraints or descriptions.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": [],
+    "topics": ["databases"]
+  },
+  {
+    "id": "metadata-repository",
+    "term": "Metadata repository",
+    "aliases": [],
+    "definition": "A database created to store metadata centrally, giving standardized information about where data lives across systems and how it connects.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": [],
+    "topics": ["databases"]
+  },
+  {
+    "id": "data-governance",
+    "term": "Data governance",
+    "aliases": [],
+    "definition": "A process for ensuring the formal management of a company's data assets, covering security, privacy, integrity, usability, and data flows, along with the roles and responsibilities of the people who maintain it.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/10-metadata-and-data-governance",
+    "confusableWith": [],
+    "topics": ["databases", "data-quality"]
+  },
+  {
+    "id": "csv-file",
+    "term": "CSV (comma-separated values) file",
+    "aliases": ["CSV"],
+    "definition": "A delimited plain-text file that uses a comma to separate values, one of the most portable formats for moving structured data between systems.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/11-accessing-sorting-and-filtering-data",
+    "confusableWith": [],
+    "topics": ["databases", "spreadsheets"]
+  },
+  {
+    "id": "select-clause",
+    "term": "SELECT",
+    "aliases": ["SELECT clause"],
+    "definition": "The section of a SQL query that indicates the subset of columns to return from a dataset.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/12-sql-for-large-datasets",
+    "confusableWith": ["from-clause", "where-clause"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "from-clause",
+    "term": "FROM",
+    "aliases": ["FROM clause"],
+    "definition": "The section of a SQL query that indicates where the selected data comes from.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/12-sql-for-large-datasets",
+    "confusableWith": ["select-clause", "where-clause"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "where-clause",
+    "term": "WHERE",
+    "aliases": ["WHERE clause"],
+    "definition": "The section of a SQL query that specifies criteria the requested data must meet.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/12-sql-for-large-datasets",
+    "confusableWith": ["select-clause", "from-clause"],
+    "topics": ["sql"]
+  },
+  {
+    "id": "sql-dialect",
+    "term": "SQL dialect",
+    "aliases": [],
+    "definition": "A vendor-specific variation of SQL, such as BigQuery, MySQL, PostgreSQL, or SQL Server — mostly consistent, but differing on details like case sensitivity.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/12-sql-for-large-datasets",
+    "confusableWith": [],
+    "topics": ["sql"]
+  },
+  {
+    "id": "snake-case",
+    "term": "Snake_case",
+    "aliases": ["snake case"],
+    "definition": "A naming style that separates words with underscores instead of spaces, used for SQL column names because spaces in a name will silently break a query.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/12-sql-for-large-datasets",
+    "confusableWith": [],
+    "topics": ["sql"]
+  },
+  {
+    "id": "naming-conventions",
+    "term": "Naming conventions",
+    "aliases": [],
+    "definition": "Consistent guidelines that describe the content, creation date, and version of a file in its name.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/13-organizing-your-data",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "data-security",
+    "term": "Data security",
+    "aliases": [],
+    "definition": "Protecting data from unauthorized access or corruption by adopting safety measures.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/14-securing-your-data",
+    "confusableWith": ["data-privacy"],
+    "topics": ["data-quality", "databases"]
+  },
+  {
+    "id": "access-control",
+    "term": "Access control",
+    "aliases": [],
+    "definition": "Features such as password protection, user permissions, and encryption that are used to protect a spreadsheet or database.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/14-securing-your-data",
+    "confusableWith": [],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "encryption",
+    "term": "Encryption",
+    "aliases": [],
+    "definition": "A security measure that uses a unique algorithm to alter data and make it unusable to anyone without the \"key\" needed to reverse it.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/14-securing-your-data",
+    "confusableWith": ["tokenization"],
+    "topics": ["data-quality"]
+  },
+  {
+    "id": "tokenization",
+    "term": "Tokenization",
+    "aliases": [],
+    "definition": "A security measure that replaces protected data elements with randomly generated \"tokens,\" while the original data is stored separately and mapped to those tokens.",
+    "courseId": "03-prepare-data",
+    "lessonId": "03-prepare-data/14-securing-your-data",
+    "confusableWith": ["encryption"],
+    "topics": ["data-quality"]
+  }
+]
