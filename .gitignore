@@ -7,3 +7,6 @@ src/content/generated
 # Live working notes, not project docs.
 tmp/bugs.md
 tmp/todos.md
+
+# Local Obsidian settings and workspace state.
+data-analysis/.obsidian/
